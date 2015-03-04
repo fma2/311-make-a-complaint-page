@@ -1,0 +1,129 @@
+require 'json'
+require 'open-uri'
+require 'net/http'
+require 'jsonpretty'
+
+def fetch(url)
+	resp = Net::HTTP.get_response(URI.parse(url))
+	data = resp.body
+	JSON.parse(data)
+end
+
+def extract_topics_json(url)
+	topics_json = Array.new
+	topics_311 = fetch(url)[0]["topics"]
+	topics_311.each do |topic|
+		topics_json << topic
+	end
+	topics_json
+end
+
+def create_services_urls_json(url)
+	services_urls = Hash.new
+	topics_json = extract_topics_json(url)
+	topics_json.each do |topic|
+		topic["topics"].each do |x|
+			services_urls[topic["label"]] =  Array.new
+		end
+		topic["topics"].each do |x|
+			services_urls[topic["label"]] <<
+			{ "services" => {
+					id: x["id"],
+					label: x["label"],
+					services_url: "http://www1.nyc.gov/311_contentapi/services/#{x["services"][0]["service_id"]}.json"
+				}
+			}
+		end
+	end
+	services_urls
+end
+
+# def add_category_name_and_complaint_type_per_service(url)
+# 	services_list = create_services_urls_json(url).values
+
+# 	services_list.each do |service|
+# 		service.each do |s|
+# 			service_url = s["services"][:services_url]
+# 			categories = find_category_names(service_url)
+# 			s[:categories] = categories
+
+# 			complaint_types = find_subtypes(service_url, "complaintType").uniq		
+# 			s[:complaint_types] = complaint_types
+
+# 			service_names = find_subtypes(service_url, "serviceName").uniq
+# 			s[:service_names] = service_names
+
+# 			topic_names = find_subtypes(service_url, "topic").uniq
+# 			s[:topic_names] = topic_names
+# 		end
+# 	end
+# 	services_list
+# end
+
+def combine_page_json(url)
+	services_list = create_services_urls_json(url).values
+	all = Array.new
+	services_list.each do |service|
+		service.each do |s|
+			service_url = s["services"][:services_url]
+			page_json = fetch(service_url)
+			all << page_json
+		end
+	end
+	fJson = File.open("all-services-data.json","w")
+	fJson.write(all)
+	fJson.close
+end
+
+# combine_page_json('http://www1.nyc.gov/311_contentapi/booker.json')
+
+
+# def find_category_names(url)
+# 	page_json = fetch(url)
+# 	# puts JSON.pretty_generate(page_json)
+# 	page_json[0]["categories"]
+# end
+
+# def find_subtypes(url, subtype)
+# 	page_json = fetch(url)
+# 	list = Array.new
+# 	page_json[0]["web_actions"].each do |action|
+# 		if includes_item?(action["url"], subtype)
+# 			action["url"].split(/[?,&]/).each do |substr|
+# 				if includes_item?(substr, subtype)
+# 					list << substr.split("=")[1]
+# 				end
+# 			end
+# 		end
+# 	end
+# 	list
+# end
+
+# def includes_item?(str, item)
+# 	if str.include?(item)
+# 		return true
+# 	end
+# end
+
+# def parse_categories_with_related_info(url)
+# 	list = add_category_name_and_complaint_type_per_service(url)
+# 	categories_json = Hash.new
+# 	list.each do |service|
+# 		service.each do |x|			
+# 			x.each do |y|
+# 				puts y["categories"]
+# 				# categories_json[y[:categories]] = {} #do |y|
+# 			end
+# 				# categories_json[y] = {}
+# 			# end
+# 		end
+# 	end
+# 	# puts list[0][0]
+# 	# puts "#" * 100
+# 	# puts list[1]
+
+# 	p categories_json
+# end
+
+# parse_categories_with_related_info('http://www1.nyc.gov/311_contentapi/booker.json')
+
