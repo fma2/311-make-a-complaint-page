@@ -1,5 +1,5 @@
-[
-    [{
+{
+    "Apartment Conditions" => [{
         "id" => "20090318-02CC091A-13CA-11DE-A46B-AB021366434E", "service_name" => "Maintenance Complaint Against Landlord", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }], "url" => "/nyc-resources/service/1950/service", "brief_description" => "Report a maintenance problem in a residential building or get a copy of a past complaint.", "description" => "<!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// -->\n\nYou can&nbsp;make an anonymous complaint about&nbsp;a maintenance problem that is affecting&nbsp;an entire residential building. When reporting a problem in an apartment, you must provide your contact information.\nCommon maintenance complaints against landlords include:\n\nUnsanitary conditions such as mold or pests, including mice, bed bugs, or roaches\nWalls or ceilings with water leaks, holes, cracks, or peeling paint\nDoors that are broken or missing\nWindows that are broken or stuck open or closed\nNo hot water\nElectrical problems such as no lighting, defective outlets or switches, or wet light fixtures\nCooking gas that has been shut off\nDoorbells, buzzers, or intercoms that are broken or missing\nFloor or stairs that are damaged\nSinks, bathtubs, showers, or toilets with plumbing problems\nSafety issues such as broken or blocked fire escapes, or broken or missing smoke alarms, carbon monoxide detectors, or window guards\n\nYou can also request a copy of a complaint filed with the Department of Housing Preservation and Development (HPD).", "description_html" => "<script type=\"text/javascript\"><!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// --></script>\n<!-- Netop Live Guide Monitor Tag -->\n<p>You can&nbsp;make an anonymous complaint about&nbsp;a maintenance problem that is affecting&nbsp;an entire residential building. When reporting a problem in an apartment, you must provide your contact information.</p>\n<p>Common maintenance complaints against landlords include:</p>\n<ul>\n<li>Unsanitary conditions such as mold or pests, including mice, bed bugs, or roaches</li>\n<li>Walls or ceilings with water leaks, holes, cracks, or peeling paint</li>\n<li>Doors that are broken or missing</li>\n<li>Windows that are broken or stuck open or closed</li>\n<li>No hot water</li>\n<li>Electrical problems such as no lighting, defective outlets or switches, or wet light fixtures</li>\n<li>Cooking gas that has been shut off</li>\n<li>Doorbells, buzzers, or intercoms that are broken or missing</li>\n<li>Floor or stairs that are damaged</li>\n<li>Sinks, bathtubs, showers, or toilets with plumbing problems</li>\n<li>Safety issues such as broken or blocked fire escapes, or broken or missing smoke alarms, carbon monoxide detectors, or window guards</li>\n</ul>\n<p>You can also request a copy of a complaint filed with the Department of Housing Preservation and Development (HPD).</p>", "web_actions" => [{
@@ -23,8 +23,7 @@
         }, {
             "id" => "20120721-56BD130E-D37D-11E1-9E3D-EB922199BBFC", "question" => "How do I report a maintenance problem in my apartment building?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "433"
         }]
-    }],
-    [{
+    }], "Heat or Hot Water" => [{
         "id" => "20090318-D7301A3A-13C9-11DE-B3B8-E2470D3B2251", "service_name" => "Heat or Hot Water Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -40,8 +39,8 @@
         }, {
             "type" => "Webpage", "label" => "Learn about year-round heat and hot water requirements.", "url" => "http://www1.nyc.gov/site/hpd/owners/heat-hot-water.page"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], 
+    "Water Quality" => [{
         "id" => "20090318-1296E00E-13CA-11DE-9323-E97131669403", "service_name" => "Water Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -81,8 +80,7 @@
         }], "faqs" => [{
             "id" => "20120720-B10091E6-D2A2-11E1-99D3-A09B115204F3", "question" => "How do I report low water pressure in my apartment?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "458"
         }]
-    }],
-    [{
+    }], "Water Leak" => [{
         "id" => "20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5", "service_name" => "Water Leak Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -98,8 +96,7 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Report more than 1 foot of water in a basement.", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Water+Basement+More+Than+1+Foot"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Sewer Backup" => [{
         "id" => "20090318-E6501E84-13C9-11DE-BE39-A36052988F0A", "service_name" => "Sewer Backup", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/2435/service", "brief_description" => "Report a sewer backup or get information about cleaning up after a flood.", "description" => "<!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// -->\n\nYou can report a sewer backup, even if the condition has cleared and the water is gone. You can also learn about cleaning up after a flood or report flooding in your basement due to heavy rainfall or large snow melt.", "description_html" => "<script type=\"text/javascript\"><!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// --></script>\n<!-- Netop Live Guide Monitor Tag -->\n<p>You can report a sewer backup, even if the condition has cleared and the water is gone. You can also learn about cleaning up after a flood or report flooding in your basement due to heavy rainfall or large snow melt.</p>", "web_actions" => [{
@@ -107,8 +104,7 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Report a sewer backup or flooding due to heavy rainfall or snow melt.", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Sewer+Backup"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Mold" => [{
         "id" => "20090318-DDD251E6-13C9-11DE-82A6-BBD4B9FA5C21", "service_name" => "Mold Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -122,8 +118,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120724-EFD38C96-D5D3-11E1-85F4-85F71FA45682", "question" => "How do I report mold in my apartment?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "461"
         }]
-    }],
-    [{
+    }], "Garbage Collection" => [{
         "id" => "20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF", "service_name" => "Missed Garbage, Recycling or Organics Collection", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/2031/service", "brief_description" => "Report that garbage, recycling, or organics was not collected on the scheduled day.", "description" => "If your garbage, recycling, or organics remain uncollected at 8 AM the day after your service day, you can make a complaint.\nTo make a complaint, items must:\nBe from a residential buildingBe placed out properly between 4 PM and midnight the day before the scheduled dayRemain curbside\nYou cannot make a missed collection complaint if your scheduled service day was suspended due to a City holiday or emergency. Once you make a complaint, leave your trash curbside for collection. The City will collect it 1 to 2 days after receiving your report.\nIf a holiday occurs on your garbage day, you may put the garbage out after 4 PM on the holiday. The City will pick up the garbage within 4 days of the holiday.\nIf a holiday occurs on your recycling day, the recycling will be collected the following week.\nIf a holiday occurs on your organics day, put the items out after 4 PM on the holiday for collection the next day.\nThe City does not service commercial recycling or refuse. If you have debris from a major construction or renovation project, you must hire a private carter or arrange for a private construction dumpster.\n&nbsp;\n", "description_html" => "<p>If your garbage, recycling, or organics remain uncollected at 8 AM the day after your service day, you can make a complaint.</p>\n<p>To make a complaint, items must:</p>\n<p>Be from a residential building<br />Be placed out properly between 4 PM and midnight the day before the scheduled day<br />Remain curbside</p>\n<p>You cannot make a missed collection complaint if your scheduled service day was suspended due to a City holiday or emergency. Once you make a complaint, leave your trash curbside for collection. The City will collect it 1 to 2 days after receiving your report.</p>\n<p>If a holiday occurs on your garbage day, you may put the garbage out after 4 PM on the holiday. The City will pick up the garbage within 4 days of the holiday.</p>\n<p>If a holiday occurs on your recycling day, the recycling will be collected the following week.</p>\n<p>If a holiday occurs on your organics day, put the items out after 4 PM on the holiday for collection the next day.</p>\n<p>The City does not service commercial recycling or refuse. If you have debris from a major construction or renovation project, you must hire a private carter or arrange for a private construction dumpster.</p>\n<p>&nbsp;</p>\n<div data-mce-bogus=\"1\" id=\"_mcePaste\"></div>", "web_actions" => [{
@@ -135,8 +130,7 @@
         }, {
             "type" => "Webpage", "label" => "Get the Department of Sanitation Holiday Schedule calendar.", "url" => "http://www1.nyc.gov/site/dsny/recycling-and-garbage/residents/collection-schedule-for-residents.page"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Bed Bugs" => [{
         "id" => "20090318-C24923AA-13C9-11DE-A81A-D31F4D99CC37", "service_name" => "Bed Bugs", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -166,8 +160,7 @@
         }, {
             "id" => "20120724-20D398FA-D5D8-11E1-958F-9E7A21C0ACF0", "question" => "Who must pay for bed bug extermination in an apartment?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "525"
         }]
-    }],
-    [{
+    }], "Power Outage" => [{
         "id" => "20090318-B91AADB2-13C9-11DE-B1A2-AA38FC210F72", "service_name" => "Electrical Complaint or Power Outage", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }], "url" => "/nyc-resources/service/2246/service", "brief_description" => "Report an electrical complaint, a power outage, or blackout.", "description" => "You can report an electrical complaint, a power outage, or blackout. When reporting an electrical problem in an apartment, you must provide your contact information.", "description_html" => "<p>You can report an electrical complaint, a power outage, or blackout. When reporting an electrical problem in an apartment, you must provide your contact information.</p>", "web_actions" => [{
@@ -189,8 +182,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120722-E4603568-D447-11E1-8A29-B3034340E36B", "question" => "How do I report a tree branch touching electrical wires?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "443"
         }]
-    }],
-    [{
+    }], "Other" => [{
         "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Civic Services"
         }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
@@ -198,8 +190,7 @@
         }, {
             "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Neighbor" => [{
         "id" => "2002-12-12-17-47-15_000010083df9120c400269f9", "service_name" => "Noise from Neighbor", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -231,8 +222,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Club or Bar" => [{
         "id" => "2002-12-12-17-47-15_000010083df9120a400269f5", "service_name" => "Noise from Club or Bar", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }, {
@@ -252,8 +242,7 @@
         }, {
             "id" => "20120720-783830C0-D2DF-11E1-AAA1-F59C7E24718D", "question" => "How late can a bar or club stay open?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "482"
         }]
-    }],
-    [{
+    }], "Street or Sidewalk" => [{
         "id" => "2002-12-12-17-47-15_000010083df9120b400269f8", "service_name" => "Noise from Street or Sidewalk", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -279,8 +268,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Large Party/Crowd" => [{
         "id" => "20100604-D21C64C4-6FDD-11DF-B631-FE3D7CCC150B", "service_name" => "Noise from Large Party or Large Crowd", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Culture and Recreation"
         }, {
@@ -292,8 +280,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Construction" => [{
         "id" => "20120703-1F957574-C545-11E1-A969-D921FEB18BEA", "service_name" => "Noise from Construction", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -313,8 +300,7 @@
         }, {
             "id" => "20120721-5A38568A-D317-11E1-AB9E-ADC0B5C29E8F", "question" => "How do I report a noisy jackhammer?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "436"
         }]
-    }],
-    [{
+    }], "Dog" => [{
         "id" => "2002-12-12-20-22-23_000010083df9365d40026e65", "service_name" => "Noise from Dog", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/1187/service", "brief_description" => "Report noise from a barking dog.", "description" => "\n<!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// -->\n\nYou can report noise from a barking dog.\nThe Department of Environmental Protection (DEP) may send a letter to the dog's owner within 7 days of getting your complaint. The letter will explain how to curb the dog's barking. For the DEP to respond to your complaint, you must provide the address where the dog is barking and your contact information. Your information will not be shared with the dog's owner.\nIf a letter is sent to the dog owner, then the DEP will send you a letter with instructions about how to follow up if the dog continues to be noisy.\nIf the DEP has already sent letters to the dog owner, they may do a noise inspection.\nIf you think the barking is a sign that the dog is being abused or mistreated, you should make an animal abuse complaint instead of a noise complaint.", "description_html" => "<!-- Netop Live Guide Monitor Tag -->\n<script type=\"text/javascript\"><!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// --></script>\n<!-- Netop Live Guide Monitor Tag -->\n<p>You can report noise from a barking dog.</p>\n<p>The Department of Environmental Protection (DEP) may send a letter to the dog's owner within 7 days of getting your complaint. The letter will explain how to curb the dog's barking. For the DEP to respond to your complaint, you must provide the address where the dog is barking and your contact information. Your information will not be shared with the dog's owner.</p>\n<p>If a letter is sent to the dog owner, then the DEP will send you a letter with instructions about how to follow up if the dog continues to be noisy.</p>\n<p>If the DEP has already sent letters to the dog owner, they may do a noise inspection.</p>\n<p>If you think the barking is a sign that the dog is being abused or mistreated, you should make an animal abuse complaint instead of a noise complaint.</p>", "web_actions" => [{
@@ -328,8 +314,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Store or Business" => [{
         "id" => "2002-12-12-17-47-15_000010083df91209400269f2", "service_name" => "Noise from Store or Business", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }, {
@@ -349,8 +334,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Vehicle" => [{
         "id" => "2002-12-12-17-47-15_000010083df9120c400269fb", "service_name" => "Noise from Vehicle", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -378,8 +362,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Air Conditioner/Vent" => [{
         "id" => "20040514-43B7AC8E-A5EF-11D8-8153-A95798082571", "service_name" => "Noise from Air Conditioner or Ventilation Equipment", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -391,8 +374,7 @@
         }, {
             "id" => "20120717-EA120D5E-D061-11E1-B560-CEF8D4B7141A", "question" => "How can I learn more about noise and NYC?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "324"
         }]
-    }],
-    [{
+    }], "Alarm" => [{
         "id" => "20090318-C024F8B0-13C9-11DE-8B34-F65848CFE79F", "service_name" => "Alarm", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -404,17 +386,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120721-56E86F4A-D31E-11E1-ACDB-B0C2E700FFFA", "question" => "How do I report a noisy alarm?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "429"
         }]
-    }],
-    [{
-        "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Civic Services"
-        }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Search 311 Online.", "url" => "http://www1.nyc.gov/home/search/index.page?search-terms=&collection=311services&portalDcsid=dcswcfico00000s9aoilr1pxj_4w3r"
-        }, {
-            "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Item In Yellow Taxi" => [{
         "id" => "20090318-151E48A8-13CA-11DE-8C88-8317B285F696", "service_name" => "Yellow Taxi Lost and Found", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1281/service", "brief_description" => "Report items that have been lost or found in a yellow taxi.", "description" => "\nIf you lost something in a taxi, you can get contact information for the taxi's garage. Then you can call the garage directly to see if they have your item and arrange to pick it up. You should also call the Police Lost and Found Center in each borough to see if your item was turned in there.You are more likely to find something you left in a yellow taxi if you have the taxi's medallion number. This is the four letter/number combination for the taxi. It is located on the taxi receipt, on the side of the taxi, and on the partition in the taxi.", "description_html" => "<div><img src=\"/portal/apps/311_service_images/taxi-receipts-combined.JPG\" alt=\"Taxi Receipts\" /></div>\n<p>If you lost something in a taxi, you can get contact information for the taxi's garage. Then you can call the garage directly to see if they have your item and arrange to pick it up. You should also call the Police Lost and Found Center in each borough to see if your item was turned in there.<br /><br />You are more likely to find something you left in a yellow taxi if you have the taxi's medallion number. This is the four letter/number combination for the taxi. It is located on the taxi receipt, on the side of the taxi, and on the partition in the taxi.</p>", "web_actions" => [{
@@ -436,8 +408,7 @@
         }, {
             "id" => "20120726-C8E554FA-D742-11E1-AA7D-D741E9DB0E0B", "question" => "How do I find an item I lost in a taxi if I have the medallion number?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "367"
         }]
-    }],
-    [{
+    }], "Item in Green Taxi" => [{
         "id" => "20140428-303072FE-CEE3-11E3-95EE-535532D25DB6", "service_name" => "Green Taxi Lost and Found", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/3946/service", "brief_description" => "Report items that have been lost or found in a green taxi.", "description" => "\nIf you lost something in a green taxi, the City will help you get contact information for the taxi's garage.You should then call the garage directly to see if they have your item and arrange to pick it up. You should also call the Police Lost and Found Center in each borough to see if your item was turned in there.You are more likely to find something you left in a green taxi if you have the taxi's license number. This is the five letter/number combination for the taxi located on the taxi receipt, on the side of the taxi, and on the partition in the taxi.", "description_html" => "<div><img src=\"/portal/apps/311_service_images/Green_Taxi.jpg\" alt=\"Taxi Receipts\" /></div>\n<p>If you lost something in a green taxi, the City will help you get contact information for the taxi's garage.<br /><br />You should then call the garage directly to see if they have your item and arrange to pick it up. You should also call the Police Lost and Found Center in each borough to see if your item was turned in there.<br /><br />You are more likely to find something you left in a green taxi if you have the taxi's license number. This is the five letter/number combination for the taxi located on the taxi receipt, on the side of the taxi, and on the partition in the taxi.</p>", "web_actions" => [{
@@ -455,8 +426,7 @@
         }, {
             "id" => "20141022-E6FE0C3C-59FB-11E4-B8F6-0A03AF70DCC3", "service_name" => "Green Boro Taxi Complaint", "simple_id" => "4534"
         }], "faqs" => []
-    }],
-    [{
+    }], "Benefit Card" => [{
         "id" => "20120207-61323E16-51CA-11E1-A74B-E14F192D60FC", "service_name" => "Benefit Card Assistance", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Social Services"
         }], "url" => "/nyc-resources/service/1172/service", "brief_description" => "Replace your benefit card, check your balance, or change your PIN for Medicaid, cash assistance, or food stamps.", "description" => "If your Electronic Benefit Transfer (EBT) card for Medicaid, cash assistance, or food stamps was lost, stolen, or printed with incorrect information, you can get a replacement. Replacement cards can only be mailed to the address on record.\nIt will take between 7 and 10 business days for you to get the card.", "description_html" => "<p>If your Electronic Benefit Transfer (EBT) card for Medicaid, cash assistance, or food stamps was lost, stolen, or printed with incorrect information, you can get a replacement. Replacement cards can only be mailed to the address on record.</p>\n<p>It will take between 7 and 10 business days for you to get the card.</p>", "web_actions" => [{
@@ -472,8 +442,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120720-A7F322F6-D29A-11E1-9D29-D3395E5C6228", "question" => "How do I replace a lost Medicaid card?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "427"
         }]
-    }],
-    [{
+    }], "Item on SI Ferry" => [{
         "id" => "20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88", "service_name" => "Staten Island Ferry", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1258/service", "brief_description" => "Get information, make a complaint, or report an item lost or found on the Staten Island Ferry.", "description" => "You can make a complaint, ask a question, or report an item you lost or found on the Staten Island Ferry.\nThe Staten Island Ferry offers free trips for all passengers&nbsp;across New York Harbor between Staten Island and Lower Manhattan. The Staten Island stop is St. George Ferry Terminal at 1 Bay Street, Richmond Terrace. The Lower Manhattan stop is Whitehall Terminal at 1 Whitehall Street at South Street.\n&nbsp;", "description_html" => "<p>You can make a complaint, ask a question, or report an item you lost or found on the Staten Island Ferry.</p>\n<p>The Staten Island Ferry offers free trips for all passengers&nbsp;across New York Harbor between Staten Island and Lower Manhattan. The Staten Island stop is St. George Ferry Terminal at 1 Bay Street, Richmond Terrace. The Lower Manhattan stop is Whitehall Terminal at 1 Whitehall Street at South Street.</p>\n<p>&nbsp;</p>", "web_actions" => [{
@@ -493,15 +462,13 @@
         }], "faqs" => [{
             "id" => "20120725-FBCA63BE-D649-11E1-9553-9B27E711B081", "question" => "How do I get Staten Island Ferry service updates?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "407"
         }]
-    }],
-    [{
+    }], "Item in Trash" => [{
         "id" => "20071121-5BBF2B98-9846-11DC-923F-8ED44CCAB34F", "service_name" => "Lost Items in Trash", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/1989/service", "brief_description" => "Report of an item lost in trash that has been collected by the Department of Sanitation.", "description" => "The City accepts reports of items that were lost in the trash and already collected by the Department of Sanitation. The item must be of significant value. ", "description_html" => "The City accepts reports of items that were lost in the trash and already collected by the Department of Sanitation. The item must be of significant value. ", "web_actions" => [{
             "type" => "Webpage", "label" => "Call 311 to report an item that was lost in the trash.", "url" => ""
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Animal" => [{
         "id" => "20090318-DD2E5500-13C9-11DE-BCD9-98CDABA93CC6", "service_name" => "Lost, Found, or Stray Animal", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/1995/service", "brief_description" => "Get information about a lost, found, stray, or abandoned animal.", "description" => "Animal Care and Control (ACC) accepts reports of lost, found, stray, or abandoned animals.If you have lost your pet or found someone else's pet, you can visit ACC's lost/found pet database to report your lost pet or see if someone has reported their pet lost. You can also visit the Brooklyn, Manhattan or Staten Island ACC Care Centers to see if your pet is there. If you are going to a Care Center to claim your pet, bring proof of ownership such as a photo of your pet or a veterinarian record. There are fees involved in reclaiming a lost pet from the Care Center.You can also report found stray dogs; ACC will dispatch a team to pick up that dog. When the ACC dispatch center is closed, you should either hold onto the dog or bring it to the nearest ACC Care Center or receiving center.ACC does not pick up or respond to reports about healthy stray adult cats, but will respond to reports of abandoned kittens. Any found pet or stray dog or cat can be brought to an ACC Care Center or receiving center during business hours.Reports of animals that seem to have been abandoned by their owner are also accepted. These pets may be tied up in public for a lengthy period of time, or left in homes unattended after owners move or go on vacation.Always use caution around stray animals. To trap an animal that is not injured or rabid, hire a professional trapper by checking the Yellow Pages under Animal Removal or Exterminator.", "description_html" => "<p>Animal Care and Control (ACC) accepts reports of lost, found, stray, or abandoned animals.</p><p>If you have lost your pet or found someone else's pet, you can visit ACC's lost/found pet database to report your lost pet or see if someone has reported their pet lost. You can also visit the Brooklyn, Manhattan or Staten Island ACC Care Centers to see if your pet is there. If you are going to a Care Center to claim your pet, bring proof of ownership such as a photo of your pet or a veterinarian record. There are fees involved in reclaiming a lost pet from the Care Center.</p><p>You can also report found stray dogs; ACC will dispatch a team to pick up that dog. When the ACC dispatch center is closed, you should either hold onto the dog or bring it to the nearest ACC Care Center or receiving center.</p><p>ACC does not pick up or respond to reports about healthy stray adult cats, but will respond to reports of abandoned kittens. Any found pet or stray dog or cat can be brought to an ACC Care Center or receiving center during business hours.</p><p>Reports of animals that seem to have been abandoned by their owner are also accepted. These pets may be tied up in public for a lengthy period of time, or left in homes unattended after owners move or go on vacation.</p><p>Always use caution around stray animals. To trap an animal that is not injured or rabid, hire a professional trapper by checking the Yellow Pages under Animal Removal or Exterminator.</p>", "web_actions" => [{
@@ -515,17 +482,7 @@
         }, {
             "type" => "Webpage", "label" => "Report a found dog with a NYC license tag.", "url" => "http://www.nyc.gov/html/doh/html/licenses/dog-elocator.shtml"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "2002-12-12-17-47-15_000010083df9121740026a1e", "service_name" => "Lost or Found Property", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Public Safety"
-        }], "url" => "/nyc-resources/service/1985/service", "brief_description" => "Report lost or found property.", "description" => "The City accepts reports of lost or found property.", "description_html" => "The City accepts reports of lost or found property.", "web_actions" => [{
-            "type" => "Webpage", "label" => "Contact a police precinct about lost or found property.", "url" => "http://www.nyc.gov/html/nypd/html/precinct_maps/precinct_finder.shtml"
-        }], "services" => [], "faqs" => [{
-            "id" => "20120725-8EEC667E-D695-11E1-A28D-B66C54BD8D83", "question" => "How do I reclaim lost property being held by the NYPD?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "415"
-        }]
-    }],
-    [{
+    }], "Illegal Parking" => [{
         "id" => "2003-03-31-13-36-22_000010083e888ab04003f6de", "service_name" => "Illegal Parking Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -539,8 +496,7 @@
         }, {
             "id" => "20120722-ED5744E0-D465-11E1-9232-DBB2BE943015", "question" => "How do I report illegal parking?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "457"
         }]
-    }],
-    [{
+    }], "Blocking Driveway" => [{
         "id" => "2002-12-12-17-47-15_000010083df911fc400269c5", "service_name" => "Vehicle Blocking Driveway Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -554,8 +510,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120724-546F5836-D5A9-11E1-8942-F6F9B1F7407D", "question" => "How do I report a vehicle blocking my driveway?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "438"
         }]
-    }],
-    [{
+    }], "Abandoned Vehicle" => [{
         "id" => "20090318-BEE0E298-13C9-11DE-9765-9D55A505D2C4", "service_name" => "Abandoned Vehicle", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -571,8 +526,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120721-E45F17AC-D364-11E1-BADB-AFADD93A4C1F", "question" => "How do I report an abandoned vehicle with no license plate?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "446"
         }]
-    }],
-    [{
+    }], "Commercial Vehicle" => [{
         "id" => "2002-12-12-19-36-03_000010083df92b8740026c1e", "service_name" => "Commercial Vehicle Parked in Residential Driveway", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -582,8 +536,7 @@
         }], "faqs" => [{
             "id" => "20120721-223CAFBA-D380-11E1-91AA-BD8F0DDF3BFE", "question" => "How do I report a commercial vehicle parked on residential property?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "430"
         }]
-    }],
-    [{
+    }], "Towed Vehicle" => [{
         "id" => "20090810-3D1F816E-85D5-11DE-8E9F-96DAE110FEB8", "service_name" => "Find a Towed Vehicle", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1091/service", "brief_description" => "Find a vehicle that may have been towed.", "description" => "Vehicles can be towed if they are parked illegally or if you owe more than $350 for parking tickets or camera violations that are in judgment. If your vehicle is towed due to parking tickets or camera violations, it does not matter whether it is parked on a public street or private property. Any vehicles registered under your name may be towed for judgment debt.\nYou can get information about towed vehicles, including the agency that towed the vehicle, the vehicle's current location, and payment options for outstanding fines, penalties or fees.\nIf your vehicle is towed, it may take up to two hours for it to be entered into the system. If your vehicle is not in the system and it has been less than two hours, check back again later. If it has been more than two hours, contact the police precinct where the vehicle was parked. You will be able to confirm that it was towed or report it as stolen.", "description_html" => "<p>Vehicles can be towed if they are parked illegally or if you owe more than $350 for parking tickets or camera violations that are in judgment. If your vehicle is towed due to parking tickets or camera violations, it does not matter whether it is parked on a public street or private property. Any vehicles registered under your name may be towed for judgment debt.</p>\n<p>You can get information about towed vehicles, including the agency that towed the vehicle, the vehicle's current location, and payment options for outstanding fines, penalties or fees.</p>\n<p>If your vehicle is towed, it may take up to two hours for it to be entered into the system. If your vehicle is not in the system and it has been less than two hours, check back again later. If it has been more than two hours, contact the police precinct where the vehicle was parked. You will be able to confirm that it was towed or report it as stolen.</p>", "web_actions" => [{
@@ -599,8 +552,7 @@
         }], "faqs" => [{
             "id" => "20120723-BC48088A-D4EC-11E1-B4AA-E52BC1E177E5", "question" => "How do I find my towed vehicle?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "369"
         }]
-    }],
-    [{
+    }], "Parking Ticket" => [{
         "id" => "20090318-FCBA63A0-13C9-11DE-90B0-A909937CA2CB", "service_name" => "Fight a Parking Ticket", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1652/service", "brief_description" => "Request a hearing to fight a parking ticket, or appeal a hearing if you were found guilty.", "description" => "You can dispute a parking ticket by requesting a hearing within 30 days of the date of the ticket. If you wait more than 30 days, penalties may apply. \nYou can request a hearing by mail, online, or in person. You will not have to appear for an online hearing or a hearing by mail. You should receive the judge's decision in about 75 days. For a hearing in person at a Finance Business Center, you will receive the judge's decision on the same day as your hearing. Walk-in hearings are held on a first-come, first-served basis, Monday through Friday, 8:30 AM to 4:30 PM. \nIf you got your ticket more than 100 days ago, a default judgment is entered against the vehicle's owner. The owner must submit a Request for Hearing after Judgment form to fight the ticket. If the request for hearing after judgment is granted, the judge will hear the defense to the parking ticket. If the request is not granted, no hearing will be held and the total fine, interest, and penalties will be due.\nHearings are not granted for tickets issued over one year ago.\nIf you fought a parking ticket and were found guilty, you can request an Appeal Hearing and try to have the decision changed.\nThe Parking Violations Settlement Program has ended. Settlements are no longer offered.", "description_html" => "<p>You can dispute a parking ticket by requesting a hearing within 30 days of the date of the ticket. If you wait more than 30 days, penalties may apply. </p>\n<p>You can request a hearing by mail, online, or in person. You will not have to appear for an online hearing or a hearing by mail. You should receive the judge's decision in about 75 days. For a hearing in person at a Finance Business Center, you will receive the judge's decision on the same day as your hearing. Walk-in hearings are held on a first-come, first-served basis, Monday through Friday, 8:30 AM to 4:30 PM. </p>\n<p>If you got your ticket more than 100 days ago, a default judgment is entered against the vehicle's owner. The owner must submit a Request for Hearing after Judgment form to fight the ticket. If the request for hearing after judgment is granted, the judge will hear the defense to the parking ticket. If the request is not granted, no hearing will be held and the total fine, interest, and penalties will be due.</p>\n<p>Hearings are not granted for tickets issued over one year ago.</p>\n<p>If you fought a parking ticket and were found guilty, you can request an Appeal Hearing and try to have the decision changed.</p>\n<p>The Parking Violations Settlement Program has ended. Settlements are no longer offered.</p>", "web_actions" => [{
@@ -622,8 +574,7 @@
         }, {
             "id" => "20120723-AA76CE26-D53B-11E1-A92A-9244E465037A", "question" => "How long does it take to get a decision from an online hearing for a parking ticket?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "477"
         }]
-    }],
-    [{
+    }], "Parking Meter" => [{
         "id" => "20090318-05120B66-13CA-11DE-826E-AEFFC439EF66", "service_name" => "Parking Meters", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/2184/service", "brief_description" => "Report a problem with a Muni-Meter or make a request to have a Muni-Meter installed.", "description" => "<!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// -->\n\nParking meters control multiple parking spaces on streets and in municipal parking lots. All meters accept quarters, dollar coins, parking cards, and credit and debit cards for payment. Each meter has rate information and step-by-step instructions posted on its display card.&nbsp; Meters marked with a credit card logo will also accept Visa, MasterCard, American Express or Discover Network cards.\nParking limits and regulations appear on street signs. Motorists may park at meters on Sundays without paying. You can submit a comment about the Sunday meter regulations or report a sign displaying outdated Sunday parking rules. All parking regulations other than parking meters, remain in effect as posted.\nThe Department of Transportation (DOT) accepts reports of meters that are broken, working incorrectly, or too close to a fire hydrant. DOT does not accept reports of meters that did not receive authorization for credit or debit card payment and therefore did not issue a receipt.\nDamaged meters include those that are:\n\nbent \nknocked over \nmissing \nloose \ndefaced with graffiti\n\nDefective meters include those that are:\n\nnot reading credit or parking cards \nhave fast or failed timing\nnot printing receipts for coin payments\n\nWhen a Muni-Meter is out-of-service, you should make a payment and obtain a receipt from the other parking meter located on the block or on the next block. &nbsp;If the other meters are not working, make sure to document the date, time, and meter numbers, should you need to dispute a parking ticket. In a parking field, you should purchase a parking receipt from the nearest Muni-Meter to the broken one\nIf all Muni-Meters on the block or in a parking field are broken or missing, you can park for the maximum amount of time posted for that metered space.\nDOT will inspect the damaged or defective meter and make repairs if necessary.\nIf your credit card is stuck in a meter, contact the bank that issued the card and cancel it. A DOT crew member will be dispatched to the meter location to retrieve your card and have it destroyed. If your parking card is stuck in a meter, DOT will retrieve it and mail it back to you.\nYou can also put in a request to have a new meter installed.", "description_html" => "<script type=\"text/javascript\"><!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// --></script>\n<!-- Netop Live Guide Monitor Tag -->\n<p>Parking meters control multiple parking spaces on streets and in municipal parking lots. All meters accept quarters, dollar coins, parking cards, and credit and debit cards for payment. Each meter has rate information and step-by-step instructions posted on its display card.&nbsp; Meters marked with a credit card logo will also accept Visa, MasterCard, American Express or Discover Network cards.</p>\n<p>Parking limits and regulations appear on street signs. Motorists may park at meters on Sundays without paying. You can submit a comment about the Sunday meter regulations or report a sign displaying outdated Sunday parking rules. All parking regulations other than parking meters, remain in effect as posted.</p>\n<p>The Department of Transportation (DOT) accepts reports of meters that are broken, working incorrectly, or too close to a fire hydrant. DOT does not accept reports of meters that did not receive authorization for credit or debit card payment and therefore did not issue a receipt.</p>\n<p>Damaged meters include those that are:</p>\n<ul>\n<li>bent </li>\n<li>knocked over </li>\n<li>missing </li>\n<li>loose </li>\n<li>defaced with graffiti</li>\n</ul>\n<p>Defective meters include those that are:</p>\n<ul>\n<li>not reading credit or parking cards </li>\n<li>have fast or failed timing</li>\n<li>not printing receipts for coin payments</li>\n</ul>\n<p>When a Muni-Meter is out-of-service, you should make a payment and obtain a receipt from the other parking meter located on the block or on the next block. &nbsp;If the other meters are not working, make sure to document the date, time, and meter numbers, should you need to dispute a parking ticket. In a parking field, you should purchase a parking receipt from the nearest Muni-Meter to the broken one</p>\n<p>If all Muni-Meters on the block or in a parking field are broken or missing, you can park for the maximum amount of time posted for that metered space.</p>\n<p>DOT will inspect the damaged or defective meter and make repairs if necessary.</p>\n<p>If your credit card is stuck in a meter, contact the bank that issued the card and cancel it. A DOT crew member will be dispatched to the meter location to retrieve your card and have it destroyed. If your parking card is stuck in a meter, DOT will retrieve it and mail it back to you.</p>\n<p>You can also put in a request to have a new meter installed.</p>", "web_actions" => [{
@@ -649,8 +600,7 @@
         }, {
             "id" => "20130114-11CCCEEA-5E8A-11E2-B20C-96DAE110FEB8", "question" => "Can I use a parking meter (Muni-Meter) receipt to park in a different spot?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "320"
         }]
-    }],
-    [{
+    }], "Red Light Camera" => [{
         "id" => "20090318-0A49C88A-13CA-11DE-A754-FD09BD7ED810", "service_name" => "Red Light Cameras", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/2324/service", "brief_description" => "Get information about red light cameras, make a request or complaint, or pay or fight a red light camera violation.", "description" => "Cameras are stationed around the City to photograph vehicles running through red lights. If your car is caught driving through a red light, you will receive a Notice of Liability (NOL). If you want to fight the&nbsp;violation, you must do&nbsp;so within 30 days of the NOL's date or face possible penalties.\nYou may request the installation or removal of a red light camera or make a complaint about a camera.\nYou may make a FOIL request for documentation to verify a red light camera location or timing span.", "description_html" => "Cameras are stationed around the City to photograph vehicles running through red lights. If your car is caught driving through a red light, you will receive a Notice of Liability (NOL). If you want to fight the&nbsp;violation, you must do&nbsp;so within 30 days of the NOL's date or face possible penalties.\n<p>You may request the installation or removal of a red light camera or make a complaint about a camera.</p>\n<p>You may make a FOIL request for documentation to verify a red light camera location or timing span.</p>", "web_actions" => [{
@@ -664,17 +614,7 @@
         }], "services" => [{
             "id" => "20110125-C274654A-28CD-11E0-BC2C-96DAE110FEB8", "service_name" => "Parking and Camera Violations Refund Form", "simple_id" => "2179"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Civic Services"
-        }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Search 311 Online.", "url" => "http://www1.nyc.gov/home/search/index.page?search-terms=&collection=311services&portalDcsid=dcswcfico00000s9aoilr1pxj_4w3r"
-        }, {
-            "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Bus/Subway/Railroad" => [{
         "id" => "20120403-26AC3BF8-7DB6-11E1-A1F1-B4BA17F5E985", "service_name" => "Buses, Subways, and Railroads", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1043/service", "brief_description" => "Get information or file a complaint about public transportation and railroads in the City. ", "description" => "The Metropolitan Transportation Authority (MTA)&nbsp;provides information about public transportation, including:\n\nRailroads\nMetroCards and fares\nTrip planning\nLost or found property\nTransit violations\n\n&nbsp;You can also report a problem, including complaints about bus drivers, train conductors, and other employees.", "description_html" => "<p>The Metropolitan Transportation Authority (MTA)&nbsp;provides information about public transportation, including:</p>\n<ul>\n<li>Railroads</li>\n<li>MetroCards and fares</li>\n<li>Trip planning</li>\n<li>Lost or found property</li>\n<li>Transit violations</li>\n</ul>\n&nbsp;You can also report a problem, including complaints about bus drivers, train conductors, and other employees.", "web_actions" => [{
@@ -702,8 +642,7 @@
         }, {
             "id" => "20050620-A575E4AA-E1D9-11D9-B9A7-9D216CF0CEC5", "service_name" => "Port Authority Bus Terminal", "simple_id" => "2243"
         }], "faqs" => []
-    }],
-    [{
+    }], "SI Ferry" => [{
         "id" => "20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88", "service_name" => "Staten Island Ferry", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1258/service", "brief_description" => "Get information, make a complaint, or report an item lost or found on the Staten Island Ferry.", "description" => "You can make a complaint, ask a question, or report an item you lost or found on the Staten Island Ferry.\nThe Staten Island Ferry offers free trips for all passengers&nbsp;across New York Harbor between Staten Island and Lower Manhattan. The Staten Island stop is St. George Ferry Terminal at 1 Bay Street, Richmond Terrace. The Lower Manhattan stop is Whitehall Terminal at 1 Whitehall Street at South Street.\n&nbsp;", "description_html" => "<p>You can make a complaint, ask a question, or report an item you lost or found on the Staten Island Ferry.</p>\n<p>The Staten Island Ferry offers free trips for all passengers&nbsp;across New York Harbor between Staten Island and Lower Manhattan. The Staten Island stop is St. George Ferry Terminal at 1 Bay Street, Richmond Terrace. The Lower Manhattan stop is Whitehall Terminal at 1 Whitehall Street at South Street.</p>\n<p>&nbsp;</p>", "web_actions" => [{
@@ -723,8 +662,7 @@
         }], "faqs" => [{
             "id" => "20120725-FBCA63BE-D649-11E1-9553-9B27E711B081", "question" => "How do I get Staten Island Ferry service updates?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "407"
         }]
-    }],
-    [{
+    }], "Yellow Taxi" => [{
         "id" => "20090318-1479B4BE-13CA-11DE-9831-E5D1F680984D", "service_name" => "Yellow Taxi Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -774,8 +712,7 @@
         }], "faqs" => [{
             "id" => "20120723-03DC134E-D4E3-11E1-B817-E8604752B602", "question" => "How many passengers are allowed in a taxi?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "484"
         }]
-    }],
-    [{
+    }], "Green Taxi" => [{
         "id" => "20141022-E6FE0C3C-59FB-11E4-B8F6-0A03AF70DCC3", "service_name" => "Green Boro Taxi Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -817,8 +754,7 @@
         }, {
             "type" => "Webpage", "label" => "Get answers to frequently asked questions for taxi passengers.   ", "url" => "http://www.nyc.gov/html/tlc/html/faq/faq.shtml"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Car Service" => [{
         "id" => "20090318-F5D65CF6-13C9-11DE-9985-D1C7A22494F7", "service_name" => "Car Service, Limousine, or Ambulette Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }, {
@@ -866,8 +802,7 @@
         }, {
             "id" => "20141022-E6FE0C3C-59FB-11E4-B8F6-0A03AF70DCC3", "service_name" => "Green Boro Taxi Complaint", "simple_id" => "4534"
         }], "faqs" => []
-    }],
-    [{
+    }], "Bus Stop Shelter" => [{
         "id" => "20090318-F53241A2-13C9-11DE-8B9B-8D0C0A748066", "service_name" => "Bus Stop Shelter Request or Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1287/service", "brief_description" => "Report a problem with a bus shelter. Request a new bus stop shelter or relocation of an existing shelter.", "description" => "The City accepts reports of broken glass, graffiti, structural damage, damaged benches, lighting or signage, or dirty conditions at a bus stop shelter.The City accepts requests for new bus stop shelters and relocation of existing shelters. The City does not accept requests for benches in existing shelters. Benches are included in all new bus stop shelters.A private company installs and maintains bus stop shelters in accordance with franchise agreements. The City reports complaints to the bus shelter contractor and monitors compliance.", "description_html" => "The City accepts reports of broken glass, graffiti, structural damage, damaged benches, lighting or signage, or dirty conditions at a bus stop shelter.<br><br>The City accepts requests for new bus stop shelters and relocation of existing shelters. The City does not accept requests for benches in existing shelters. Benches are included in all new bus stop shelters.<br><br>A private company installs and maintains bus stop shelters in accordance with franchise agreements. The City reports complaints to the bus shelter contractor and monitors compliance.", "web_actions" => [{
@@ -877,17 +812,7 @@
         }, {
             "type" => "Webpage", "label" => "Get information about the bus shelter initiative.", "url" => "http://www.nyc.gov/html/dot/html/sidewalks/streetfurniture.shtml#busshelter"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Civic Services"
-        }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Search 311 Online.", "url" => "http://www1.nyc.gov/home/search/index.page?search-terms=&collection=311services&portalDcsid=dcswcfico00000s9aoilr1pxj_4w3r"
-        }, {
-            "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Street Pothole" => [{
         "id" => "20090318-0FFFDEC2-13CA-11DE-9825-BFA9544B8DE7", "service_name" => "Pothole or Street Surface Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/2238/service", "brief_description" => "Report a pothole or other condition making the roadway uneven, such as a cave-in, defective manhole or utility hardware problem.", "description" => "The City accepts requests and reports for the following conditions:\n\n\nPothole\n\n\nCave-In\n\n\nUtility Damage\n\n\nDamaged Hardware\n\n\nPotholes - Circular-shaped shallow holes where the pavement has worn away.\nCave-ins - Irregular-shaped deep holes where the street has collapsed.\nUtility damage - Street surfaces opened by utility companies and not restored to their original condition, such as asphalt piled too high or too low or a repaired patch that has developed a pothole or cave-in.\nManhole covers and other street hardware defects - Missing, damaged, raised, sunken or noisy street hardware, as well as asphalt or concrete defects around them.\nThe City also accepts requests to resurface streets that are rough, cracked, or pitted beyond repair.", "description_html" => "<p>The City accepts requests and reports for the following conditions:</p>\n<div>\n<div><img src=\"/portal/apps/311_service_images/pothole.jpg\" alt=\"Pothole\" />\n<div>Pothole</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/cave_in.jpg\" alt=\"Cave-In\" />\n<div>Cave-In</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/failed_street_repair.jpg\" alt=\"Utility Damage\" />\n<div>Utility Damage</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/street_hardware.jpg\" alt=\"Damaged Hardware\" />\n<div>Damaged Hardware</div>\n</div>\n</div>\n<p><b>Potholes</b> - Circular-shaped shallow holes where the pavement has worn away.</p>\n<p><b>Cave-ins</b> - Irregular-shaped deep holes where the street has collapsed.</p>\n<p><b>Utility damage</b> - Street surfaces opened by utility companies and not restored to their original condition, such as asphalt piled too high or too low or a repaired patch that has developed a pothole or cave-in.</p>\n<p><b>Manhole covers and other street hardware defects</b> - Missing, damaged, raised, sunken or noisy street hardware, as well as asphalt or concrete defects around them.</p>\n<p>The City also accepts requests to resurface streets that are rough, cracked, or pitted beyond repair.</p>", "web_actions" => [{
@@ -917,8 +842,7 @@
         }], "faqs" => [{
             "id" => "20120722-FE0F4E30-D475-11E1-9197-D77EB830C12E", "question" => "How do I report a pothole?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "439"
         }]
-    }],
-    [{
+    }], "Highway Surface" => [{
         "id" => "20090318-FF6DD780-13C9-11DE-B948-99271B25E443", "service_name" => "Highway Surface Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1145/service", "brief_description" => "Report conditions making the roadway uneven, such as potholes, defective manholes and other utility hardware issues. Request highway resurfacing.", "description" => "You can report the following surface conditions making highways uneven:\n\n\nPotholes - Requests to fill circular-shaped shallow holes where the pavement has worn away.\n\nCave-ins - Requests to repair irregular-shaped deep holes where the highway has collapsed.\n\nManhole covers - Reports of missing, damaged, raised, sunken or noisy round-shaped metal covers, as well as asphalt or concrete defects around them.\n\n\nYou can also request resurfacing of City highways that are rough, cracked, or pitted beyond repair. The review may take up to twelve weeks. You will receive a response after the review is completed.", "description_html" => "You can report the following surface conditions making highways uneven:<br>\n<br>\n<ul>\n<li>Potholes - Requests to fill circular-shaped shallow holes where the pavement has worn away.</li>\n\n<li>Cave-ins - Requests to repair irregular-shaped deep holes where the highway has collapsed.</li>\n\n<li>Manhole covers - Reports of missing, damaged, raised, sunken or noisy round-shaped metal covers, as well as asphalt or concrete defects around them.</li>\n</ul>\n\n<p>You can also request resurfacing of City highways that are rough, cracked, or pitted beyond repair. The review may take up to twelve weeks. You will receive a response after the review is completed.</p>", "web_actions" => [{
@@ -940,8 +864,7 @@
         }, {
             "type" => "Webpage", "label" => "Call 911 if the condition threatens to cause an accident.", "url" => ""
         }], "faqs" => []
-    }],
-    [{
+    }], "Blocked Sidewalk/St" => [{
         "id" => "20090318-C3C93580-13C9-11DE-A086-C44CC5EA8AF9", "service_name" => "Blocked Sidewalk or Street Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -979,8 +902,7 @@
         }], "faqs" => [{
             "id" => "20120725-ECCA1188-D6A4-11E1-867A-E69B7EC56B85", "question" => "How do I report a basketball hoop blocking a street?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "428"
         }]
-    }],
-    [{
+    }], "Damaged Sidewalk" => [{
         "id" => "20090318-0CD0EA20-13CA-11DE-A4DB-C3AB9A6FEE5D", "service_name" => "Sidewalks", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -1008,8 +930,7 @@
         }], "faqs" => [{
             "id" => "20120721-11AE47FA-D39C-11E1-A4B0-B5AF1FE50D21", "question" => "How do I report a broken, raised, or uneven sidewalk?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "423"
         }]
-    }],
-    [{
+    }], "Damaged Curb" => [{
         "id" => "20090318-F8B30FDC-13C9-11DE-8BC3-C74AA068E33C", "service_name" => "Curb Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -1037,8 +958,7 @@
         }, {
             "id" => "20120723-52983B42-D4C6-11E1-864E-C27EF0D4CD87", "question" => "How do I report an illegal driveway?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "448"
         }]
-    }],
-    [{
+    }], "Street Sign" => [{
         "id" => "20090318-0F8F637C-13CA-11DE-901D-D3F5C40A5DB3", "service_name" => "Street Sign Defect Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/2540/service", "brief_description" => "Report a sign that is broken, defaced, incorrect, dangling, or missing.", "description" => "The City accepts reports for the following street sign defects:\n\n Street signs that are damaged, blocked, twisted,    faded, defaced, or incorrect\nSigns that are dangling or leaning, including green    rectangular signs dangling over intersections\n Street signs that are missing completely\nSign stumps or poles that are sticking out of the ground\n Missing signage at a construction site where work continues for more than three months\n", "description_html" => "The City accepts reports for the following street sign defects:<br />\n<ul>\n<li> Street signs that are damaged, blocked, twisted,    faded, defaced, or incorrect</li>\n<li>Signs that are dangling or leaning, including green    rectangular signs dangling over intersections</li>\n<li> Street signs that are missing completely</li>\n<li>Sign stumps or poles that are sticking out of the ground</li>\n<li> Missing signage at a construction site where work continues for more than three months</li>\n</ul>", "web_actions" => [{
@@ -1056,8 +976,7 @@
         }, {
             "type" => "Webpage", "label" => "Call 311 to report a missing construction site sign.", "url" => ""
         }], "faqs" => []
-    }],
-    [{
+    }], "Traffic Signal" => [{
         "id" => "20141203-90542960-7B2B-11E4-9678-53947431F730", "service_name" => "Traffic Signal (Vehicle Stoplight) Request or Condition", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/4641/service", "brief_description" => "Report a problem with a traffic signal (vehicle stoplight) or request the installation of a new signal.", "description" => "\nYou can report traffic signal (vehicle stoplight) conditions, such as:\n\n\n\nLights changing out-of-sequence&nbsp;\nLights burned out or not changing (steady red or green light)&nbsp;\nStructural conditions, such as a hanging signal, or a pole that is leaning or has been knocked down&nbsp;\n\n\n\nEvery problem or request is assigned a priority ranking, and the Department of Transportation will respond according to that ranking:\n\n\n\nHigh priorities are addressed within hours&nbsp;\nGeneral maintenance issues may take up to 30 days&nbsp;\nLong-term construction issues will vary depending upon the nature of the project&nbsp;\nSignals with a power supply problem will be issued a Stop Tag and referred to Con Edison&nbsp;\n\n\n\nYou can request the installation of new traffic signals or request a review of the timing of a traffic signal. These reviews can take up to 12 weeks and you will receive a response after completion.\n", "description_html" => "<div>\n<div>You can report traffic signal (vehicle stoplight) conditions, such as:</div>\n<div><br /></div>\n<div>\n<ul>\n<li>Lights changing out-of-sequence&nbsp;</li>\n<li>Lights burned out or not changing (steady red or green light)&nbsp;</li>\n<li>Structural conditions, such as a hanging signal, or a pole that is leaning or has been knocked down&nbsp;</li>\n</ul>\n</div>\n<div><br /></div>\n<div>Every problem or request is assigned a priority ranking, and the Department of Transportation will respond according to that ranking:</div>\n<div><br /></div>\n<div>\n<ul>\n<li>High priorities are addressed within hours&nbsp;</li>\n<li>General maintenance issues may take up to 30 days&nbsp;</li>\n<li>Long-term construction issues will vary depending upon the nature of the project&nbsp;</li>\n<li>Signals with a power supply problem will be issued a Stop Tag and referred to Con Edison&nbsp;</li>\n</ul>\n</div>\n<div><br /></div>\n<div>You can request the installation of new traffic signals or request a review of the timing of a traffic signal. These reviews can take up to 12 weeks and you will receive a response after completion.</div>\n</div>", "web_actions" => [{
@@ -1071,8 +990,7 @@
         }, {
             "type" => "Webpage", "label" => "Report a pedestrian signal condition.", "url" => "http://www1.nyc.gov/nyc-resources/service/4643/pedestrian-signal-request-or-condition"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Street Light" => [{
         "id" => "20090318-0EEAC650-13CA-11DE-95C5-AEDFCA0C66A7", "service_name" => "Street Light Request or Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/2533/service", "brief_description" => "Request street light repair, installation or relocation. ", "description" => "The Department of Transportation (DOT) accepts reports of broken, defective or fallen street lights. You may also request installation of a new street light or relocation of an existing one. The review may take up to 12 weeks and you will receive a response once the review is completed.", "description_html" => "<p>The Department of Transportation (DOT) accepts reports of broken, defective or fallen street lights. You may also request installation of a new street light or relocation of an existing one. The review may take up to 12 weeks and you will receive a response once the review is completed.</p>", "web_actions" => [{
@@ -1082,8 +1000,7 @@
         }, {
             "type" => "Webpage", "label" => "See street light Service Requests on the 311 Service Request Map.", "url" => "http://www.nyc.gov/apps/311srmap/?category=Streets%20%26%20Sidewalks&complaintType=Street%20Light%20Condition"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Illegal Poster" => [{
         "id" => "20090318-D2748E9A-13C9-11DE-BE23-848A743CFABE", "service_name" => "Flyer or Poster Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }], "url" => "/nyc-resources/service/1720/service", "brief_description" => "Report unwanted posters, advertisements, handbills, signs, menus, or stickers on public property, private property, or vehicles.", "description" => "You can report unwanted posters, advertisements, handbills, signs, menus, or stickers on public property, private property, or vehicles.\nYou may post a sign on your property letting advertisers know that you do not want them to leave material on your property.", "description_html" => "<P>You can report unwanted posters, advertisements, handbills, signs, menus, or stickers on public property, private property, or vehicles.</P>\n<P>You may post a sign on your property letting advertisers know that you do not want them to leave material on your property.</P>", "web_actions" => [{
@@ -1093,8 +1010,7 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Menus or flyers in a building or on a vehicle", "url" => "/apps/311universalintake/form.htm?serviceName=NYPD+Flyer+Poster"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Damaged Tree" => [{
         "id" => "20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B", "service_name" => "Fallen Tree or Branch Removal Request", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/1635/service", "brief_description" => "Request the removal of fallen, dead or damaged trees or branches.", "description" => "The City removes street trees and large branches that have fallen to the ground in front of houses, in parks, and in other public spaces. The City also removes trees or branches that are blocking sidewalks or streets, as well as branches that are cracked or hanging and about to fall. Removal may be delayed during a storm if the branches are not blocking streets or sidewalks.\n\n\nFallen Tree\n\n\nTree in poor condition\n\n\nSplit Tree Trunk\n\n\nTrees along streets in front of houses will be investigated and, if necessary, removed. The City also removes dead trees from parks and other public spaces.\nThe City is not responsible for:\n\nAny non-City tree that falls on private property\nAny small non-City tree branch that falls on private property\nAny tree that is on private property\n\nProperty owners must consult with a private landscape contractor to arrange for the removal of non-City trees or tree branches. Landscape contractors are listed in the yellow pages.\nProperty owners are responsible for knowing whether a tree is on their property or on the City's property. Trees can appear to be growing on your property but actually be on City property. Reference your title survey to verify property lines before removing a tree or conducting any tree work on or around trees in your front yard.", "description_html" => "<p>The City removes street trees and large branches that have fallen to the ground in front of houses, in parks, and in other public spaces. The City also removes trees or branches that are blocking sidewalks or streets, as well as branches that are cracked or hanging and about to fall. Removal may be delayed during a storm if the branches are not blocking streets or sidewalks.</p>\n<div>\n<div><img src=\"/portal/apps/311_service_images/fallen tree bigger.JPG\" alt=\"Fallen Tree\" />\n<div>Fallen Tree</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/tree in poor condition bigger.JPG\" alt=\"Tree in poor condition\" />\n<div>Tree in poor condition</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/tree trunk split bigger.JPG\" alt=\"Split Tree Trunk\" />\n<div>Split Tree Trunk</div>\n</div>\n</div>\n<p>Trees along streets in front of houses will be investigated and, if necessary, removed. The City also removes dead trees from parks and other public spaces.</p>\n<p>The City is not responsible for:</p>\n<ul>\n<li>Any non-City tree that falls on private property</li>\n<li>Any small non-City tree branch that falls on private property</li>\n<li>Any tree that is on private property</li>\n</ul>\n<p>Property owners must consult with a private landscape contractor to arrange for the removal of non-City trees or tree branches. Landscape contractors are listed in the yellow pages.</p>\n<p>Property owners are responsible for knowing whether a tree is on their property or on the City's property. Trees can appear to be growing on your property but actually be on City property. Reference your title survey to verify property lines before removing a tree or conducting any tree work on or around trees in your front yard.</p>", "web_actions" => [{
@@ -1104,8 +1020,7 @@
         }, {
             "id" => "20120723-7FDAFDEC-D4FD-11E1-936D-841FE9E7541E", "question" => "How do I know if a tree is on City or private property?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "411"
         }]
-    }],
-    [{
+    }], "Dirty Sidewalk" => [{
         "id" => "2002-12-05-21-00-02_000010083df004ce4001e44c", "service_name" => "Dirty Sidewalk or Gutter Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -1121,8 +1036,7 @@
         }, {
             "id" => "20100211-81FD5454-173A-11DF-BC2C-96DAE110FEB8", "service_name" => "Littering Complaint", "simple_id" => "1165"
         }], "faqs" => []
-    }],
-    [{
+    }], "Catch Basin" => [{
         "id" => "20090318-F6162AF2-13C9-11DE-832A-E059CF027C9B", "service_name" => "Catch Basin Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Transportation"
         }], "url" => "/nyc-resources/service/1338/service", "brief_description" => "Report a storm drain that is missing its cover, clogged, sunken, raised, damaged, or defective.", "description" => "\n<!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// -->\n\n\nYou can report a problem with a catch basin. Catch basins, commonly referred to as storm drains or sewer grates,&nbsp;are located on street and highway curbs. They collect storm water. You may sometimes see steam rising from catch basins. This is due to atmospheric conditions and is normal.The City no longer accepts requests for the installation of new catch basins.", "description_html" => "<!-- Netop Live Guide Monitor Tag -->\n<script type=\"text/javascript\"><!--\nfunction LgTrackingTag(){var s=document.createElement(\"script\");s.type=\"text/javascript\";s.charset=\"utf-8\";s.src=document.location.protocol+\"//clients-liveguide01us.netop.com/track.php?LiveGuideUID=Uc9dpPSo0algsc6ms6tV5l0&url=\"+escape(window.location);if(document && document.body)try{document.body.appendChild(s);}catch(e){}else document.write(s);} if(window.attachEvent)window.attachEvent('onload',LgTrackingTag);else window.addEventListener(\"load\",LgTrackingTag,false);\n// --></script>\n<!-- Netop Live Guide Monitor Tag -->\n<div><img src=\"/portal/apps/311_service_images/clogged%20catch%20basin.jpg\" alt=\"Clogged Catch Basin\" /></div>\n<p>You can report a problem with a catch basin. Catch basins, commonly referred to as storm drains or sewer grates,&nbsp;are located on street and highway curbs. They collect storm water. You may sometimes see steam rising from catch basins. This is due to atmospheric conditions and is normal.<br /><br />The City no longer accepts requests for the installation of new catch basins.</p>", "web_actions" => [{
@@ -1138,8 +1052,7 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Missing its cover", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Catch+Basin+Sewer+Grate+Missing"
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Fire Hydrant" => [{
         "id" => "20120607-25CD10DA-B0C5-11E1-8670-DF488D5993B5", "service_name" => "Fire Hydrant Leaking or Running", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -1157,47 +1070,7 @@
         }, {
             "id" => "", "service_name" => "__TOKEN_SSNAMES____TOKEN_SSNAMEE__", "simple_id" => "__TOKEN_SSIDS____TOKEN_SSIDE__"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5", "service_name" => "Water Leak Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Housing and Development"
-        }, {
-            "category_name" => "Environment"
-        }], "url" => "/nyc-resources/service/2720/service", "brief_description" => "Report water leaking into a public area or basement.", "description" => "You can report water leaking in a public area such as a street or sidewalk.\nYou can also report water leaking into a basement from an outside source other than storm-related rainfall. If the water is coming from an internal pipe, the building owner is responsible for contacting a licensed plumber to have it fixed.\nYou must provide your contact information. When reporting a water leak in a public area, select \"Non-Anonymous\" on the complaint form. ", "description_html" => "<p>You can report water leaking in a public area such as a street or sidewalk.</p>\n<p>You can also report water leaking into a basement from an outside source other than storm-related rainfall. If the water is coming from an internal pipe, the building owner is responsible for contacting a licensed plumber to have it fixed.</p>\n<p>You must provide your contact information. When reporting a water leak in a public area, select \"Non-Anonymous\" on the complaint form. </p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Report a water leak in an apartment.", "url" => "https://www1.nyc.gov/nyc311-hpd-service-request/form.htm?locationType=Apartment&complaintType=Water%20Leak"
-        }, {
-            "type" => "Webpage", "label" => "Report a water leak in a public area of a residential building but not in the basement.", "url" => "https://www1.nyc.gov/nyc311-hpd-service-request/form.htm?locationType=Public%20Area&complaintType=Water%20Leak"
-        }, {
-            "type" => "311 Online Service Request", "label" => "Report water leaking on a street or sidewalk.", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Water+Leak+Street+Sidewalk"
-        }, {
-            "type" => "311 Online Service Request", "label" => "Report less than 1 foot of water in a basement.", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Water+Basement+Less+Than+1+Foot"
-        }, {
-            "type" => "311 Online Service Request", "label" => "Report more than 1 foot of water in a basement.", "url" => "/apps/311universalintake/form.htm?serviceName=DEP+Water+Basement+More+Than+1+Foot"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
-        "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Civic Services"
-        }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Search 311 Online.", "url" => "http://www1.nyc.gov/home/search/index.page?search-terms=&collection=311services&portalDcsid=dcswcfico00000s9aoilr1pxj_4w3r"
-        }, {
-            "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
-        "id" => "20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF", "service_name" => "Missed Garbage, Recycling or Organics Collection", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Environment"
-        }], "url" => "/nyc-resources/service/2031/service", "brief_description" => "Report that garbage, recycling, or organics was not collected on the scheduled day.", "description" => "If your garbage, recycling, or organics remain uncollected at 8 AM the day after your service day, you can make a complaint.\nTo make a complaint, items must:\nBe from a residential buildingBe placed out properly between 4 PM and midnight the day before the scheduled dayRemain curbside\nYou cannot make a missed collection complaint if your scheduled service day was suspended due to a City holiday or emergency. Once you make a complaint, leave your trash curbside for collection. The City will collect it 1 to 2 days after receiving your report.\nIf a holiday occurs on your garbage day, you may put the garbage out after 4 PM on the holiday. The City will pick up the garbage within 4 days of the holiday.\nIf a holiday occurs on your recycling day, the recycling will be collected the following week.\nIf a holiday occurs on your organics day, put the items out after 4 PM on the holiday for collection the next day.\nThe City does not service commercial recycling or refuse. If you have debris from a major construction or renovation project, you must hire a private carter or arrange for a private construction dumpster.\n&nbsp;\n", "description_html" => "<p>If your garbage, recycling, or organics remain uncollected at 8 AM the day after your service day, you can make a complaint.</p>\n<p>To make a complaint, items must:</p>\n<p>Be from a residential building<br />Be placed out properly between 4 PM and midnight the day before the scheduled day<br />Remain curbside</p>\n<p>You cannot make a missed collection complaint if your scheduled service day was suspended due to a City holiday or emergency. Once you make a complaint, leave your trash curbside for collection. The City will collect it 1 to 2 days after receiving your report.</p>\n<p>If a holiday occurs on your garbage day, you may put the garbage out after 4 PM on the holiday. The City will pick up the garbage within 4 days of the holiday.</p>\n<p>If a holiday occurs on your recycling day, the recycling will be collected the following week.</p>\n<p>If a holiday occurs on your organics day, put the items out after 4 PM on the holiday for collection the next day.</p>\n<p>The City does not service commercial recycling or refuse. If you have debris from a major construction or renovation project, you must hire a private carter or arrange for a private construction dumpster.</p>\n<p>&nbsp;</p>\n<div data-mce-bogus=\"1\" id=\"_mcePaste\"></div>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Report the previous day's missed collection of garbage or recycling.", "url" => "https://www.nyc.gov/apps/311missedcollection/form.htm"
-        }, {
-            "type" => "Webpage", "label" => "Learn how to place out your regular garbage or recycling.", "url" => "http://www1.nyc.gov/site/dsny/recycling-and-garbage/residents/setout-rules-for-residents.page"
-        }, {
-            "type" => "Webpage", "label" => "Find out how to place out bulk items.", "url" => "http://www1.nyc.gov/site/dsny/recycling-and-garbage/residents/specially-handled-items.page"
-        }, {
-            "type" => "Webpage", "label" => "Get the Department of Sanitation Holiday Schedule calendar.", "url" => "http://www1.nyc.gov/site/dsny/recycling-and-garbage/residents/collection-schedule-for-residents.page"
-        }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Garbage Storage" => [{
         "id" => "20131129-46354A94-5921-11E3-899B-1FD1B933CE61", "service_name" => "Garbage, Recycling, or Organics Storage Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Housing and Development"
         }, {
@@ -1209,36 +1082,7 @@
         }], "services" => [{
             "id" => "2003-07-11-14-06-24_000010083f0efcb2400096a7", "service_name" => "Recycling or Trash Collection Schedule", "simple_id" => "2320"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "2002-12-05-21-00-02_000010083df004ce4001e44c", "service_name" => "Dirty Sidewalk or Gutter Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Housing and Development"
-        }, {
-            "category_name" => "Transportation"
-        }], "url" => "/nyc-resources/service/1064/service", "brief_description" => "Report that a sidewalk or gutter, including 18 inches into the street, is unclean.", "description" => "Property owners must clean and sweep the sidewalks and gutters next to their property, including 18 inches from the curb into the street. Property owners who do not clean the sidewalks and gutters bordering their property may be issued a summons.\nThe Department of Sanitation will inspect the location and may issue a summons, but they will not remove the debris.\n&nbsp;", "description_html" => "<p>Property owners must clean and sweep the sidewalks and gutters next to their property, including 18 inches from the curb into the street. Property owners who do not clean the sidewalks and gutters bordering their property may be issued a summons.</p>\n<p>The Department of Sanitation will inspect the location and may issue a summons, but they will not remove the debris.</p>\n<p>&nbsp;</p>", "web_actions" => [{
-            "type" => "311 Online Service Request", "label" => "Report a dirty sidewalk.", "url" => "/apps/311universalintake/form.htm?serviceName=DSNY+Dirty+Sidewalk"
-        }, {
-            "type" => "Webpage", "label" => "See dirty sidewalk, gutter, and other dirty condition Service Requests on the 311 Service Request Map.", "url" => "http://www.nyc.gov/apps/311srmap/?category=Sanitation&complaintType=Dirty%20Condition"
-        }], "services" => [{
-            "id" => "20050602-79DF1D0E-D372-11D9-973D-852312DCD939", "service_name" => "Dirty Yard or Alley Complaint", "simple_id" => "1069"
-        }, {
-            "id" => "20110224-2E583012-405B-11E0-BC2C-96DAE110FEB8", "service_name" => "Illegal Dumping Complaint", "simple_id" => "1151"
-        }, {
-            "id" => "20100211-81FD5454-173A-11DF-BC2C-96DAE110FEB8", "service_name" => "Littering Complaint", "simple_id" => "1165"
-        }], "faqs" => []
-    }],
-    [{
-        "id" => "20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B", "service_name" => "Fallen Tree or Branch Removal Request", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Environment"
-        }], "url" => "/nyc-resources/service/1635/service", "brief_description" => "Request the removal of fallen, dead or damaged trees or branches.", "description" => "The City removes street trees and large branches that have fallen to the ground in front of houses, in parks, and in other public spaces. The City also removes trees or branches that are blocking sidewalks or streets, as well as branches that are cracked or hanging and about to fall. Removal may be delayed during a storm if the branches are not blocking streets or sidewalks.\n\n\nFallen Tree\n\n\nTree in poor condition\n\n\nSplit Tree Trunk\n\n\nTrees along streets in front of houses will be investigated and, if necessary, removed. The City also removes dead trees from parks and other public spaces.\nThe City is not responsible for:\n\nAny non-City tree that falls on private property\nAny small non-City tree branch that falls on private property\nAny tree that is on private property\n\nProperty owners must consult with a private landscape contractor to arrange for the removal of non-City trees or tree branches. Landscape contractors are listed in the yellow pages.\nProperty owners are responsible for knowing whether a tree is on their property or on the City's property. Trees can appear to be growing on your property but actually be on City property. Reference your title survey to verify property lines before removing a tree or conducting any tree work on or around trees in your front yard.", "description_html" => "<p>The City removes street trees and large branches that have fallen to the ground in front of houses, in parks, and in other public spaces. The City also removes trees or branches that are blocking sidewalks or streets, as well as branches that are cracked or hanging and about to fall. Removal may be delayed during a storm if the branches are not blocking streets or sidewalks.</p>\n<div>\n<div><img src=\"/portal/apps/311_service_images/fallen tree bigger.JPG\" alt=\"Fallen Tree\" />\n<div>Fallen Tree</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/tree in poor condition bigger.JPG\" alt=\"Tree in poor condition\" />\n<div>Tree in poor condition</div>\n</div>\n<div><img src=\"/portal/apps/311_service_images/tree trunk split bigger.JPG\" alt=\"Split Tree Trunk\" />\n<div>Split Tree Trunk</div>\n</div>\n</div>\n<p>Trees along streets in front of houses will be investigated and, if necessary, removed. The City also removes dead trees from parks and other public spaces.</p>\n<p>The City is not responsible for:</p>\n<ul>\n<li>Any non-City tree that falls on private property</li>\n<li>Any small non-City tree branch that falls on private property</li>\n<li>Any tree that is on private property</li>\n</ul>\n<p>Property owners must consult with a private landscape contractor to arrange for the removal of non-City trees or tree branches. Landscape contractors are listed in the yellow pages.</p>\n<p>Property owners are responsible for knowing whether a tree is on their property or on the City's property. Trees can appear to be growing on your property but actually be on City property. Reference your title survey to verify property lines before removing a tree or conducting any tree work on or around trees in your front yard.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Request removal of fallen tree or branches.", "url" => "http://www.nycgovparks.org/services/forestry/request/submit"
-        }], "faqs" => [{
-            "id" => "20120720-A66BB57E-D29A-11E1-8DCD-B74D608764DB", "question" => "How do I get a fallen tree branch removed from a public area?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "381"
-        }, {
-            "id" => "20120723-7FDAFDEC-D4FD-11E1-936D-841FE9E7541E", "question" => "How do I know if a tree is on City or private property?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "411"
-        }]
-    }],
-    [{
+    }], "Rodents" => [{
         "id" => "20090318-E4714DD6-13C9-11DE-8ED0-9466907655DB", "service_name" => "Rodent Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Health"
         }, {
@@ -1258,8 +1102,7 @@
         }, {
             "type" => "Webpage", "label" => "Call 311 to report rats or mice in any other location.", "url" => ""
         }], "services" => [], "faqs" => []
-    }],
-    [{
+    }], "Dog or Animal Waste" => [{
         "id" => "20090318-CD7121C4-13C9-11DE-8FF3-952E69B6FFFB", "service_name" => "Dog or Animal Waste Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Health"
         }, {
@@ -1275,15 +1118,13 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120722-152961F2-D44C-11E1-AA4E-E04242FF5EFD", "question" => "How do I report someone who does not clean up after their dog?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "462"
         }]
-    }],
-    [{
+    }], "Animal Abuse" => [{
         "id" => "20090318-B143ADDC-13C9-11DE-A6A0-E4AECE7B3C2A", "service_name" => "Animal Abuse", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Environment"
         }], "url" => "/nyc-resources/service/1057/service", "brief_description" => "Report animal abuse or cruelty.", "description" => "The New York Police Department investigates reports of animal abuse or neglect. New York State law defines animal cruelty as a situation where a person causes unjustified harm, pain, or suffering to an animal or neglects an animal's care by not providing it with proper food, water, medical care, or suitable shelter.", "description_html" => "<p>The New York Police Department investigates reports of animal abuse or neglect. New York State law defines animal cruelty as a situation where a person causes unjustified harm, pain, or suffering to an animal or neglects an animal's care by not providing it with proper food, water, medical care, or suitable shelter.</p>", "web_actions" => [{
             "type" => "311 Online Service Request", "label" => "Report the neglect or abuse of an animal.", "url" => "/apps/311universalintake/form.htm?serviceName=NYPD+Animal+Abuse"
         }], "faqs" => []
-    }],
-    [{
+    }], "Food Safety" => [{
         "id" => "20090318-D3184AD0-13C9-11DE-9E30-A9A3DC1CEB23", "service_name" => "Food Safety Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -1299,8 +1140,7 @@
         }], "services" => [], "faqs" => [{
             "id" => "20120723-16815B2E-D503-11E1-AA29-9820C34844F8", "question" => "How do I report an unsafe condition in a restaurant?", "expiration" => "12-31-2099T00:00:00Z", "simple_id" => "444"
         }]
-    }],
-    [{
+    }], "Food Poisoning" => [{
         "id" => "20090318-D2DBD514-13C9-11DE-B6D0-D60CE7CD83E0", "service_name" => "Food Poisoning", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -1310,8 +1150,7 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Report food poisoning affecting 3 or more people.", "url" => "/apps/311universalintake/form.htm?serviceName=DOHMH+Food+Poisoning+3+or+More"
         }], "faqs" => []
-    }],
-    [{
+    }], "Homeless Person" => [{
         "id" => "20130314-ABB86E9E-8D18-11E2-B20C-96DAE110FEB8", "service_name" => "Homeless Person Complaint", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
             "category_name" => "Public Safety"
         }, {
@@ -1323,14 +1162,5 @@
         }, {
             "type" => "311 Online Service Request", "label" => "Report a homeless person establishing an encampment on the Staten Island Ferry.", "url" => "/apps/311universalintake/form.htm?serviceName=DOT+Ferry+Complaint+Homeless"
         }], "faqs" => []
-    }],
-    [{
-        "id" => "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033", "service_name" => "Other Complaints", "expiration" => "12-31-2099T00:00:00Z", "categories" => [{
-            "category_name" => "Civic Services"
-        }], "url" => "__TOKEN_SURLS__20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033__TOKEN_SURLE__", "brief_description" => "Learn how to find other complaints on 311 Online.", "description" => "The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.", "description_html" => "<p>The Make a Complaint menu only lists some of the most popular requests on 311 Online. If you can&rsquo;t find what you&rsquo;re looking for, it might still be available. Try using the search box at the top of the page to look for something specific. You can also browse through everything that&rsquo;s available from 311 by clicking on NYC Resources in the main menu.</p>", "web_actions" => [{
-            "type" => "Webpage", "label" => "Search 311 Online.", "url" => "http://www1.nyc.gov/home/search/index.page?search-terms=&collection=311services&portalDcsid=dcswcfico00000s9aoilr1pxj_4w3r"
-        }, {
-            "type" => "Webpage", "label" => "Browse 311 Online.", "url" => "http://www1.nyc.gov/nyc-resources/categories.page"
-        }], "services" => [], "faqs" => []
     }]
-]
+}
