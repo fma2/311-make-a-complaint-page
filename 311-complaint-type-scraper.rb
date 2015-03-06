@@ -3,6 +3,9 @@ require 'open-uri'
 require 'net/http'
 require 'jsonpretty'
 
+
+## create json with topics linked to services/labels with info on categories, service_name, complaint_type, etc
+
 def fetch(url)
 	resp = Net::HTTP.get_response(URI.parse(url))
 	data = resp.body
@@ -18,62 +21,15 @@ def extract_topics_json(url)
 	topics_json
 end
 
-def create_services_urls_json(url)
-	services_urls = Hash.new
+def add_services_url_to_topics_json(url)
 	topics_json = extract_topics_json(url)
+	
 	topics_json.each do |topic|
-		topic["topics"].each do |x|
-			services_urls[topic["label"]] =  Array.new
-		end
-		topic["topics"].each do |x|
-			services_urls[topic["label"]] <<
-			{ "services" => {
-					id: x["id"],
-					label: x["label"],
-					services_url: "http://www1.nyc.gov/311_contentapi/services/#{x["services"][0]["service_id"]}.json"
-				}
-			}
+		topic["topics"].each do |subtopic|
+			subtopic[:services_url] = "http://www1.nyc.gov/311_contentapi/services/#{subtopic['services'][0]["service_id"]}.json"
 		end
 	end
-	services_urls
-end
-
-def add_category_name_and_complaint_type_per_service(url)
-	services_list = create_services_urls_json(url).values
-
-	services_list.each do |service|
-		service.each do |s|
-			service_url = s["services"][:services_url]
-			categories = find_category_names(service_url)
-			s[:categories] = categories
-
-			complaint_types = find_subtypes(service_url, "complaintType").uniq		
-			s[:complaint_types] = complaint_types
-
-			service_names = find_subtypes(service_url, "serviceName").uniq
-			s[:service_names] = service_names
-
-			topic_names = find_subtypes(service_url, "topic").uniq
-			s[:topic_names] = topic_names
-		end
-	end
-	puts services_list
-	create_json_file('services-list.json',services_list)
-end
-
-def combine_page_json(url)
-	services_list = create_services_urls_json(url).values
-	all = Hash.new
-	services_list.each do |service|
-		service.each do |s|
-			service_url = s["services"][:services_url]
-			page_json = fetch(service_url)
-			all[s["services"][:label]] = page_json
-		end
-	end
-	fJson = File.open("all-services-data.json","w")
-	fJson.write(all)
-	fJson.close
+	topics_json
 end
 
 def find_category_names(url)
@@ -103,31 +59,56 @@ def includes_item?(str, item)
 	end
 end
 
-def parse_categories_with_related_info(url)
-	list = add_category_name_and_complaint_type_per_service(url)
-	categories_json = Hash.new
-	list.each do |service|
-		service.each do |x|			
-			x.each do |y|
-				# puts y["categories"]
-				# categories_json[y[:categories]] = {} #do |y|
-			end
-				# categories_json[y] = {}
-			# end
-		end
-	end
-	# puts list[0][0]
-	# puts "#" * 100
-	# puts list[1]
+services_list = create_topics_and_services_json('http://www1.nyc.gov/311_contentapi/booker.json')
 
-	p categories_json
-end
+# def add_category_name_and_complaint_type_per_service(url)
+# 	services_list = create_services_urls_json(url).values
 
-def create_json_file(filename, json)
-	fJson = File.open(filename,"w")
-	fJson.write(json)
-	fJson.close
-end
+# 	services_list.each do |service|
+# 		service.each do |s|
+# 			service_url = s["services"][:services_url]
+# 			categories = find_category_names(service_url)
+# 			s[:categories] = categories
+
+# 			complaint_types = find_subtypes(service_url, "complaintType").uniq		
+# 			s[:complaint_types] = complaint_types
+
+# 			service_names = find_subtypes(service_url, "serviceName").uniq
+# 			s[:service_names] = service_names
+
+# 			topic_names = find_subtypes(service_url, "topic").uniq
+# 			s[:topic_names] = topic_names
+# 		end
+# 	end
+# 	puts services_list
+# 	create_json_file('services-list.json',services_list)
+# end
+
+# def parse_categories_with_related_info(url)
+# 	list = add_category_name_and_complaint_type_per_service(url)
+# 	categories_json = Hash.new
+# 	list.each do |service|
+# 		service.each do |x|			
+# 			x.each do |y|
+# 				# puts y["categories"]
+# 				# categories_json[y[:categories]] = {} #do |y|
+# 			end
+# 				# categories_json[y] = {}
+# 			# end
+# 		end
+# 	end
+# 	# puts list[0][0]
+# 	# puts "#" * 100
+# 	# puts list[1]
+
+# 	p categories_json
+# end
+
+# def create_json_file(filename, json)
+# 	fJson = File.open(filename,"w")
+# 	fJson.write(json)
+# 	fJson.close
+# end
 
 # combine_page_json('http://www1.nyc.gov/311_contentapi/booker.json')
 # file = File.read('all-services-data.json')
@@ -137,5 +118,5 @@ end
 #   f.write(sm_json.to_json)
 # end
 
-add_category_name_and_complaint_type_per_service('http://www1.nyc.gov/311_contentapi/booker.json')
+# add_category_name_and_complaint_type_per_service('http://www1.nyc.gov/311_contentapi/booker.json')
 
