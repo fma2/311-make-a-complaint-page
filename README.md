@@ -1,7 +1,6 @@
 # 311-make-a-complaint-page
-Pulling information from the NYC 311 Make a Complaint web application
 
-The NYC 311 Make a Complaint web application can be found at (http://www1.nyc.gov/311/index.page)[http://www1.nyc.gov/311/index.page].  Select "Make a Complaint" from the left-side navigation bar.
+The NYC 311 Make a Complaint web application can be found at [http://www1.nyc.gov/311/index.page](http://www1.nyc.gov/311/index.page).  Select "Make a Complaint" from the left-side navigation bar.
 
 Topics (e.g. "Your Home") and subtopics (e.g. for "Your Home" -> "Heat or Hot Water") one can view via the drop-down menus on the application and can also find in [this json](http://www1.nyc.gov/311_contentapi/booker.json) were extracted and parsed.  
 
