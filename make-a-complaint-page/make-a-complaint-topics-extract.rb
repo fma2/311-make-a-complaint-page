@@ -1,13 +1,4 @@
-require 'json'
-require 'open-uri'
-require 'net/http'
-require 'jsonpretty'
-
-def fetch(url)
-	resp = Net::HTTP.get_response(URI.parse(url))
-	data = resp.body
-	JSON.parse(data)
-end
+load '../json-helper.rb'
 
 def extract_topics_json(url)
 	json = Array.new
@@ -110,11 +101,6 @@ def create_category_buckets_json(url)
 	category_buckets_json
 end
 
-def write_to_json_file(json, file)
-	File.open(file,"w") do |f|
-		f.write(json.to_json)
-	end
-end
 
 category_buckets_with_topics = create_category_buckets_json('http://www1.nyc.gov/311_contentapi/booker.json')
 write_to_json_file(category_buckets_with_topics, 'public/category-buckets-with-topics.json')
