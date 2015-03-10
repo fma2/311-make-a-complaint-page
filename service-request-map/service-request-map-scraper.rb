@@ -1,13 +1,4 @@
-require 'json'
-require 'open-uri'
-require 'net/http'
-require 'jsonpretty'
-
-def fetch(url)
-	resp = Net::HTTP.get_response(URI.parse(url))
-	data = resp.body
-	JSON.parse(data)
-end
+load '../json-helper.rb'
 
 def get_complaint_types(category)
 	cat_temp = category.split(" ")
@@ -39,12 +30,6 @@ def build_category_complaint_types_json(url)
 				v << complaint["name"]
 			end
 		end
-	end
-end
-
-def write_to_json_file(json, file)
-	File.open(file,"w") do |f|
-		f.write(json.to_json)
 	end
 end
 
