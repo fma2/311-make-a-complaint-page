@@ -1,0 +1,943 @@
+[{
+    "id": "0.02507743848127275",
+    "label": "Your Home",
+    "topics": [{
+        "id": "0.5260003129525441",
+        "label": "Apartment Conditions",
+        "services": [{
+            "service_id": "20090318-02CC091A-13CA-11DE-A46B-AB021366434E"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-02CC091A-13CA-11DE-A46B-AB021366434E.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.38645043070733376",
+        "label": "Heat or Hot Water",
+        "services": [{
+            "service_id": "20090318-D7301A3A-13C9-11DE-B3B8-E2470D3B2251"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D7301A3A-13C9-11DE-B3B8-E2470D3B2251.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Education"
+        }],
+        "complaint_types": ["Heat/Hot Water"],
+        "topic_types": ["Entire Building", "Apartment Only"]
+    }, {
+        "id": "0.3121555112387375",
+        "label": "Water Quality",
+        "services": [{
+            "service_id": "20090318-1296E00E-13CA-11DE-9323-E97131669403"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-1296E00E-13CA-11DE-9323-E97131669403.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": ["Plumbing"],
+        "topic_types": ["Water Supply"]
+    }, {
+        "id": "0.08141337193039466",
+        "label": "Water Leak",
+        "services": [{
+            "service_id": "20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": ["Water Leak"],
+        "topic_types": []
+    }, {
+        "id": "0.23513345818277787",
+        "label": "Sewer Backup",
+        "services": [{
+            "service_id": "20090318-E6501E84-13C9-11DE-BE39-A36052988F0A"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-E6501E84-13C9-11DE-BE39-A36052988F0A.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.7948625400936095",
+        "label": "Mold",
+        "services": [{
+            "service_id": "20090318-DDD251E6-13C9-11DE-82A6-BBD4B9FA5C21"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-DDD251E6-13C9-11DE-82A6-BBD4B9FA5C21.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Health"
+        }],
+        "complaint_types": ["Unsanitary Condition"],
+        "topic_types": ["Mold"]
+    }, {
+        "id": "0.17112570557305762",
+        "label": "Garbage Collection",
+        "services": [{
+            "service_id": "20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6277115214829696",
+        "label": "Bed Bugs",
+        "services": [{
+            "service_id": "20090318-C24923AA-13C9-11DE-A81A-D31F4D99CC37"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-C24923AA-13C9-11DE-A81A-D31F4D99CC37.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Education"
+        }],
+        "complaint_types": ["Unsanitary Condition"],
+        "topic_types": ["Pests"]
+    }, {
+        "id": "0.8226880284777242",
+        "label": "Power Outage",
+        "services": [{
+            "service_id": "20090318-B91AADB2-13C9-11DE-B1A2-AA38FC210F72"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-B91AADB2-13C9-11DE-B1A2-AA38FC210F72.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }],
+        "complaint_types": ["Electric"],
+        "topic_types": ["Power Outage"]
+    }, {
+        "id": "0.7638833127645117",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.5954144696771868",
+    "label": "Noise",
+    "topics": [{
+        "id": "0.48462618644273925",
+        "label": "Neighbor",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df9120c400269f9"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df9120c400269f9.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5148355461945938",
+        "label": "Club or Bar",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df9120a400269f5"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df9120a400269f5.json",
+        "categories": [{
+            "category_name": "Environment"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.4953383027855539",
+        "label": "Street or Sidewalk",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df9120b400269f8"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df9120b400269f8.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5054918787503091",
+        "label": "Large Party/Crowd",
+        "services": [{
+            "service_id": "20100604-D21C64C4-6FDD-11DF-B631-FE3D7CCC150B"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20100604-D21C64C4-6FDD-11DF-B631-FE3D7CCC150B.json",
+        "categories": [{
+            "category_name": "Culture and Recreation"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.9831607065353583",
+        "label": "Construction",
+        "services": [{
+            "service_id": "20120703-1F957574-C545-11E1-A969-D921FEB18BEA"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20120703-1F957574-C545-11E1-A969-D921FEB18BEA.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.12724462982653661",
+        "label": "Dog",
+        "services": [{
+            "service_id": "2002-12-12-20-22-23_000010083df9365d40026e65"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-20-22-23_000010083df9365d40026e65.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.09576441817376691",
+        "label": "Store or Business",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df91209400269f2"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df91209400269f2.json",
+        "categories": [{
+            "category_name": "Environment"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.47177519082659913",
+        "label": "Vehicle",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df9120c400269fb"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df9120c400269fb.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.8476510529965163",
+        "label": "Air Conditioner/Vent",
+        "services": [{
+            "service_id": "20040514-43B7AC8E-A5EF-11D8-8153-A95798082571"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20040514-43B7AC8E-A5EF-11D8-8153-A95798082571.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.2527735407040166",
+        "label": "Alarm",
+        "services": [{
+            "service_id": "20090318-C024F8B0-13C9-11DE-8B34-F65848CFE79F"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-C024F8B0-13C9-11DE-8B34-F65848CFE79F.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.2998550311637245",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.13885152134344103",
+    "label": "Lost & Found",
+    "topics": [{
+        "id": "0.9227855175825349",
+        "label": "Item In Yellow Taxi",
+        "services": [{
+            "service_id": "20090318-151E48A8-13CA-11DE-8C88-8317B285F696"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-151E48A8-13CA-11DE-8C88-8317B285F696.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6032641406051369",
+        "label": "Item in Green Taxi",
+        "services": [{
+            "service_id": "20140428-303072FE-CEE3-11E3-95EE-535532D25DB6"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20140428-303072FE-CEE3-11E3-95EE-535532D25DB6.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.698409984421869",
+        "label": "Benefit Card",
+        "services": [{
+            "service_id": "20120207-61323E16-51CA-11E1-A74B-E14F192D60FC"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20120207-61323E16-51CA-11E1-A74B-E14F192D60FC.json",
+        "categories": [{
+            "category_name": "Social Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.4693220844781434",
+        "label": "Item on SI Ferry",
+        "services": [{
+            "service_id": "20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.9182380459420231",
+        "label": "Item in Trash",
+        "services": [{
+            "service_id": "20071121-5BBF2B98-9846-11DC-923F-8ED44CCAB34F"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20071121-5BBF2B98-9846-11DC-923F-8ED44CCAB34F.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.1796430934114258",
+        "label": "Animal",
+        "services": [{
+            "service_id": "20090318-DD2E5500-13C9-11DE-BCD9-98CDABA93CC6"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-DD2E5500-13C9-11DE-BCD9-98CDABA93CC6.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.05204547490934042",
+        "label": "Other",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df9121740026a1e"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df9121740026a1e.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.7726613562608565",
+    "label": "Vehicles & Parking",
+    "topics": [{
+        "id": "0.09227689845756992",
+        "label": "Illegal Parking",
+        "services": [{
+            "service_id": "2003-03-31-13-36-22_000010083e888ab04003f6de"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2003-03-31-13-36-22_000010083e888ab04003f6de.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5621700173609083",
+        "label": "Blocking Driveway",
+        "services": [{
+            "service_id": "2002-12-12-17-47-15_000010083df911fc400269c5"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-17-47-15_000010083df911fc400269c5.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.06536444277236264",
+        "label": "Abandoned Vehicle",
+        "services": [{
+            "service_id": "20090318-BEE0E298-13C9-11DE-9765-9D55A505D2C4"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-BEE0E298-13C9-11DE-9765-9D55A505D2C4.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6958011372441935",
+        "label": "Commercial Vehicle",
+        "services": [{
+            "service_id": "2002-12-12-19-36-03_000010083df92b8740026c1e"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-12-19-36-03_000010083df92b8740026c1e.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5777608594096103",
+        "label": "Towed Vehicle",
+        "services": [{
+            "service_id": "20090810-3D1F816E-85D5-11DE-8E9F-96DAE110FEB8"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090810-3D1F816E-85D5-11DE-8E9F-96DAE110FEB8.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.10214255628347058",
+        "label": "Parking Ticket",
+        "services": [{
+            "service_id": "20090318-FCBA63A0-13C9-11DE-90B0-A909937CA2CB"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-FCBA63A0-13C9-11DE-90B0-A909937CA2CB.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6145808238211304",
+        "label": "Parking Meter",
+        "services": [{
+            "service_id": "20090318-05120B66-13CA-11DE-826E-AEFFC439EF66"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-05120B66-13CA-11DE-826E-AEFFC439EF66.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": ["Broken Muni Meter"],
+        "topic_types": []
+    }, {
+        "id": "0.07819229279979611",
+        "label": "Red Light Camera",
+        "services": [{
+            "service_id": "20090318-0A49C88A-13CA-11DE-A754-FD09BD7ED810"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0A49C88A-13CA-11DE-A754-FD09BD7ED810.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.4997354625640602",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.5520449274935837",
+    "label": "Transportation",
+    "topics": [{
+        "id": "0.9672406440998559",
+        "label": "Bus/Subway/Railroad",
+        "services": [{
+            "service_id": "20120403-26AC3BF8-7DB6-11E1-A1F1-B4BA17F5E985"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20120403-26AC3BF8-7DB6-11E1-A1F1-B4BA17F5E985.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.49472959664849514",
+        "label": "SI Ferry",
+        "services": [{
+            "service_id": "20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0E8244CC-13CA-11DE-A15E-BA03F0592F88.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.14483487586056232",
+        "label": "Yellow Taxi",
+        "services": [{
+            "service_id": "20090318-1479B4BE-13CA-11DE-9831-E5D1F680984D"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-1479B4BE-13CA-11DE-9831-E5D1F680984D.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5909584903691794",
+        "label": "Green Taxi",
+        "services": [{
+            "service_id": "20141022-E6FE0C3C-59FB-11E4-B8F6-0A03AF70DCC3"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20141022-E6FE0C3C-59FB-11E4-B8F6-0A03AF70DCC3.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.950081619073101",
+        "label": "Car Service",
+        "services": [{
+            "service_id": "20090318-F5D65CF6-13C9-11DE-9985-D1C7A22494F7"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-F5D65CF6-13C9-11DE-9985-D1C7A22494F7.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.4947780284049167",
+        "label": "Bus Stop Shelter",
+        "services": [{
+            "service_id": "20090318-F53241A2-13C9-11DE-8B9B-8D0C0A748066"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-F53241A2-13C9-11DE-8B9B-8D0C0A748066.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5734168450807674",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.6698920371281001",
+    "label": "Streets & Sidewalks",
+    "topics": [{
+        "id": "0.899979659792986",
+        "label": "Street Pothole",
+        "services": [{
+            "service_id": "20090318-0FFFDEC2-13CA-11DE-9825-BFA9544B8DE7"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0FFFDEC2-13CA-11DE-9825-BFA9544B8DE7.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.7304300965198846",
+        "label": "Highway Surface",
+        "services": [{
+            "service_id": "20090318-FF6DD780-13C9-11DE-B948-99271B25E443"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-FF6DD780-13C9-11DE-B948-99271B25E443.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.8632094102440462",
+        "label": "Blocked Sidewalk/St",
+        "services": [{
+            "service_id": "20090318-C3C93580-13C9-11DE-A086-C44CC5EA8AF9"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-C3C93580-13C9-11DE-A086-C44CC5EA8AF9.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.443009483191384",
+        "label": "Damaged Sidewalk",
+        "services": [{
+            "service_id": "20090318-0CD0EA20-13CA-11DE-A4DB-C3AB9A6FEE5D"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0CD0EA20-13CA-11DE-A4DB-C3AB9A6FEE5D.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }, {
+            "category_name": "Business"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.01615443798453453",
+        "label": "Damaged Curb",
+        "services": [{
+            "service_id": "20090318-F8B30FDC-13C9-11DE-8BC3-C74AA068E33C"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-F8B30FDC-13C9-11DE-8BC3-C74AA068E33C.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.003800413449105866",
+        "label": "Street Sign",
+        "services": [{
+            "service_id": "20090318-0F8F637C-13CA-11DE-901D-D3F5C40A5DB3"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0F8F637C-13CA-11DE-901D-D3F5C40A5DB3.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6227494556058227",
+        "label": "Traffic Signal",
+        "services": [{
+            "service_id": "20141203-90542960-7B2B-11E4-9678-53947431F730"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20141203-90542960-7B2B-11E4-9678-53947431F730.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.2537776660713872",
+        "label": "Street Light",
+        "services": [{
+            "service_id": "20090318-0EEAC650-13CA-11DE-95C5-AEDFCA0C66A7"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0EEAC650-13CA-11DE-95C5-AEDFCA0C66A7.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": ["Street Light Condition"],
+        "topic_types": []
+    }, {
+        "id": "0.9700808703516111",
+        "label": "Illegal Poster",
+        "services": [{
+            "service_id": "20090318-D2748E9A-13C9-11DE-BE23-848A743CFABE"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D2748E9A-13C9-11DE-BE23-848A743CFABE.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.10837851832117196",
+        "label": "Damaged Tree",
+        "services": [{
+            "service_id": "20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.161674499713937",
+        "label": "Dirty Sidewalk",
+        "services": [{
+            "service_id": "2002-12-05-21-00-02_000010083df004ce4001e44c"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-05-21-00-02_000010083df004ce4001e44c.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": ["Dirty Condition"],
+        "topic_types": []
+    }, {
+        "id": "0.7999879734105424",
+        "label": "Catch Basin",
+        "services": [{
+            "service_id": "20090318-F6162AF2-13C9-11DE-832A-E059CF027C9B"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-F6162AF2-13C9-11DE-832A-E059CF027C9B.json",
+        "categories": [{
+            "category_name": "Transportation"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.5912229816274277",
+        "label": "Fire Hydrant",
+        "services": [{
+            "service_id": "20120607-25CD10DA-B0C5-11E1-8670-DF488D5993B5"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20120607-25CD10DA-B0C5-11E1-8670-DF488D5993B5.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6618793338133139",
+        "label": "Water Leak",
+        "services": [{
+            "service_id": "20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-12FD4632-13CA-11DE-BC3D-8D850BBEF5B5.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": ["Water Leak"],
+        "topic_types": []
+    }, {
+        "id": "0.09227809424658162",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}, {
+    "id": "0.8943793622638379",
+    "label": "Public Health/Safety",
+    "topics": [{
+        "id": "0.988887716278512",
+        "label": "Garbage Collection",
+        "services": [{
+            "service_id": "20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-0437F78C-13CA-11DE-BFF0-A99DE58EA0DF.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.6839616008873654",
+        "label": "Garbage Storage",
+        "services": [{
+            "service_id": "20131129-46354A94-5921-11E3-899B-1FD1B933CE61"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20131129-46354A94-5921-11E3-899B-1FD1B933CE61.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": ["Unsanitary Condition"],
+        "topic_types": ["Garbage/Recycling Storage"]
+    }, {
+        "id": "0.9055535386515066",
+        "label": "Dirty Sidewalk",
+        "services": [{
+            "service_id": "2002-12-05-21-00-02_000010083df004ce4001e44c"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/2002-12-05-21-00-02_000010083df004ce4001e44c.json",
+        "categories": [{
+            "category_name": "Housing and Development"
+        }, {
+            "category_name": "Transportation"
+        }],
+        "complaint_types": ["Dirty Condition"],
+        "topic_types": []
+    }, {
+        "id": "0.4831305266974739",
+        "label": "Damaged Tree",
+        "services": [{
+            "service_id": "20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D05C4DFA-13C9-11DE-AEE8-A5F07CC8945B.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.2651962363041145",
+        "label": "Rodents",
+        "services": [{
+            "service_id": "20090318-E4714DD6-13C9-11DE-8ED0-9466907655DB"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-E4714DD6-13C9-11DE-8ED0-9466907655DB.json",
+        "categories": [{
+            "category_name": "Health"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.8287195582406821",
+        "label": "Dog or Animal Waste",
+        "services": [{
+            "service_id": "20090318-CD7121C4-13C9-11DE-8FF3-952E69B6FFFB"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-CD7121C4-13C9-11DE-8FF3-952E69B6FFFB.json",
+        "categories": [{
+            "category_name": "Health"
+        }, {
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.642430889604528",
+        "label": "Animal Abuse",
+        "services": [{
+            "service_id": "20090318-B143ADDC-13C9-11DE-A6A0-E4AECE7B3C2A"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-B143ADDC-13C9-11DE-A6A0-E4AECE7B3C2A.json",
+        "categories": [{
+            "category_name": "Environment"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.479931744846152",
+        "label": "Food Safety",
+        "services": [{
+            "service_id": "20090318-D3184AD0-13C9-11DE-9E30-A9A3DC1CEB23"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D3184AD0-13C9-11DE-9E30-A9A3DC1CEB23.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Health"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.7696884879048699",
+        "label": "Food Poisoning",
+        "services": [{
+            "service_id": "20090318-D2DBD514-13C9-11DE-B6D0-D60CE7CD83E0"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20090318-D2DBD514-13C9-11DE-B6D0-D60CE7CD83E0.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Health"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.32938507048583343",
+        "label": "Homeless Person",
+        "services": [{
+            "service_id": "20130314-ABB86E9E-8D18-11E2-B20C-96DAE110FEB8"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20130314-ABB86E9E-8D18-11E2-B20C-96DAE110FEB8.json",
+        "categories": [{
+            "category_name": "Public Safety"
+        }, {
+            "category_name": "Social Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }, {
+        "id": "0.7663542621833743",
+        "label": "Other",
+        "services": [{
+            "service_id": "20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033"
+        }],
+        "services_url": "http://www1.nyc.gov/311_contentapi/services/20150212-D165FF58-B2CD-11E4-8A03-FB0DA7CF6033.json",
+        "categories": [{
+            "category_name": "Civic Services"
+        }],
+        "complaint_types": [],
+        "topic_types": []
+    }]
+}]
