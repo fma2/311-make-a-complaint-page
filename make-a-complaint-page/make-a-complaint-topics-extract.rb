@@ -71,6 +71,22 @@ def create_topics_subtopics_types_json(url)
 	add_scraped_types_to_subtopic(url)
 end
 
+def create_topics_subtopics_list(json)
+	file = File.read(json)
+	data_hash = JSON.parse(file)
+	list = Hash.new
+	data_hash.each do |topic|
+		topic_name = topic["label"]
+		list[topic_name] = []
+		subtopics_list = topic["topics"]
+		subtopics_list.each do |subtopic|
+			list[topic_name] << subtopic["label"]
+		end
+	end	
+	list
+end
+
+
 def create_empty_category_buckets(url)
 	json = add_scraped_types_to_subtopic(url)
 	category_buckets = Hash.new
@@ -107,3 +123,6 @@ write_to_json_file(category_buckets_with_topics, 'public/category-buckets-with-t
 
 topics_subtopics_types_json = create_topics_subtopics_types_json('http://www1.nyc.gov/311_contentapi/booker.json')
 write_to_json_file(topics_subtopics_types_json, 'public/topics-subtopics-selected-types.json')
+
+list = create_topics_subtopics_list('public/topics-subtopics-selected-types.json')
+write_to_json_file(list, 'public/topics-subtopics-list.json')
