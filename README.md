@@ -2,6 +2,8 @@
 
 This repository contains information pulled from the (1) [NYC 311 Make a Complaint web application](http://www1.nyc.gov/311/index.page) and (2) [NYC 311 Service Request Map](http://www1.nyc.gov/apps/311srmap/).  Read below to learn more about each site and about the information from each in this repository.
 
+Results from scrape available as Google Doc [here](https://docs.google.com/document/d/1ON143VSMC9bDExlWFV7sG-Ly29949JAg5QPLkr2DGpk/edit).
+
 
 ##### NYC 311 Make a Complaint Application
 
